@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 315.43 54.39">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .01em;
+      }
+
+      .cls-2 {
+        font-family: SharpGroteskBook25-Regular, 'Sharp Grotesk Book 25';
+        font-size: 13.01px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #2e434d;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        font-family: SharpGroteskMedium25-Regular, 'Sharp Grotesk Medium 25';
+        font-size: 35.28px;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: .02em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        fill: #d04e54;
+        stroke-width: 0px;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: .01em;
+      }
+
+      .cls-18 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <polygon class="cls-15" points="52.13 31.57 57.5 22.31 46.81 3.7 14.68 3.7 9.3 13.01 27.61 12.97 41.45 13 46.86 22.31 41.45 31.56 46.85 40.85 36.12 40.87 30.76 31.61 36.15 22.29 30.76 12.98 25.39 22.31 14.65 22.32 9.3 31.56 19.97 31.55 30.68 50.11 52.28 50.11 57.61 40.84 52.13 31.57"/>
+      <rect class="cls-15" x="-13.89" y="26.89" width="37.08" height="9.3" transform="translate(36.2 26.89) rotate(90)"/>
+    </g>
+    <text class="cls-2" transform="translate(76.93 50.12)"><tspan x="0" y="0">&amp; </tspan><tspan class="cls-14" x="17.03" y="0">A</tspan><tspan class="cls-17" x="28.69" y="0">so</tspan><tspan class="cls-5" x="50.35" y="0">c</tspan><tspan class="cls-10" x="61.53" y="0">i</tspan><tspan class="cls-7" x="65.38" y="0">a</tspan><tspan class="cls-9" x="76.18" y="0">d</tspan><tspan class="cls-1" x="87.62" y="0">o</tspan><tspan class="cls-13" x="99" y="0">s</tspan></text>
+    <text class="cls-3" transform="translate(71.75 30.34)"><tspan class="cls-6" x="0" y="0">R</tspan><tspan class="cls-8" x="30.44" y="0">a</tspan><tspan class="cls-16" x="58.7" y="0">u</tspan><tspan x="87.24" y="0">l </tspan><tspan class="cls-4" x="107.02" y="0">B</tspan><tspan class="cls-18" x="137.96" y="0">r</tspan><tspan class="cls-11" x="158.49" y="0">u</tspan><tspan class="cls-12" x="187.31" y="0">s</tspan><tspan x="214.93" y="0">a</tspan></text>
+  </g>
+</svg>

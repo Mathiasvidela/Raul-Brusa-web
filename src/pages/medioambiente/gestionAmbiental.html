@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/public/logos/fav_icon.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/style.css">
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
@@ -9,46 +10,62 @@
         <title>Raul Brusa & Asociados</title>
       </head>
 <body class="font-poppins">
+  <!-- NAV BAR -->
     <header class="z-20">
-        <div class="navbar bg-base-200">
+        <div class="navbar bg-secn-white">
           <div class="navbar-start dropdown-hover">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </div>
               <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a href="/index.html" >Home</a></li>
+                
+                <li><a href="/index.html">Home</a></li>
+
                 <li><a href="/src/pages/aboutus.html" >Sobre nosotros</a></li>
+
                 <li>
-                  <a>Medio Ambiente</a>
-                  <ul class="p-2">
-                    <li><a>Gestión Ambiental</a></li>
-                    <li><a>Informes Ambientales</a></li>
-                    <li><a>Monitoreos Ambientales</a></li>
-                    <li><a>Capacitaciones Ambientales y Entrenamiento de Brigadas de Emergencia</a></li>
-                  </ul>
+                  <details>
+                    <summary>Medio Ambiente</summary>
+                    <ul class="p-2">
+                      <li><a>Gestión Ambiental</a></li>
+                      <li><a>Informes Ambientales</a></li>
+                      <li><a>Monitoreos Ambientales</a></li>
+                      <li><a>Capacitaciones Ambientales y Entrenamiento de Brigadas de Emergencia</a></li>
+                    </ul>
+                  </details>
                 </li>
+
                 <li>
-                  <a>Seguridad Indrustrial</a>
-                  <ul class="p-2">
-                    <li><a>Gestión de Seguridad y Salud Ocupacional</a></li>
-                    <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
-                    <li><a>Monitoreo Laborales</a></li>
-                    <li><a>Capacitaciones Laborales y Entrenamiento de Brigadas de Emergencia</a></li>
-                  </ul>
+                  <details>
+                    <summary>Seguridad Industrial</summary>
+                    <ul class="p-2">
+                      <li><a>Gestión de Seguridad y Salud Ocupacional</a></li>
+                      <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
+                      <li><a>Monitoreo Laborales</a></li>
+                      <li><a>Capacitaciones Laborales y Entrenamiento de Brigadas de Emergencia</a></li>
+                    </ul>
+                  </details>
                 </li>
+
                 <li>
-                  <a>Proyectos</a>
-                  <ul class="p-2">
-                    <li><a>Ambientales</a></li>
-                    <li><a>Seguridad e Higiene</a></li>
-                  </ul>
+                  <details>
+                    <summary>Proyectos</summary>
+                    <ul class="p-2">
+                      <li><a>Ambientales</a></li>
+                      <li><a>Seguridad e Higiene</a></li>
+                    </ul>
+                  </details>
                 </li>
+
                 <li><a>Contacto</a></li>
+
               </ul>
             </div>
-            <img src="/public/logos/logo-1.svg" alt="logo raul brusa" class="w-40 btn-ghost pl-3">
+
+            <img src="/public/logos/logo-1.svg" alt="logo raul brusa" class="w-52 btn-ghost pl-3">
           </div>
+          
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
               <li><a href="/index.html" >Home</a></li>  
@@ -90,8 +107,7 @@
         </div>
       </header>
 
-
-
+    <!-- HERO -->
     <div class="hero min-h-80 lg:min-h-[488px] flex items-center justify-center" style="background-image:url('/src/img/hero-gestionAmbiental.jpg');">
     
       <div class="relative w-[50%] flex flex-col items-center">
@@ -342,33 +358,49 @@
   </div>
     </section>
 
-
+<!-- IMAGES SECTION -->
    <section class="p-10 md:p-20">
 
      <div class="flex flex-col md:flex-row gap-4">
-       <div class="rounded h-64 w-full md:w-[65%] bg-cover">
-         <img src="/src/img/galery-img/section-1/rectangle_362_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out">
+       <div class="h-64 w-full md:w-[65%] bg-cover">
+         <img src="/src/img/galery-img/section-1/rectangle_362_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
        </div>
  
-       <div class="rounded h-64 mt-4 md:mt-0 w-full md:w-[35%] bg-cover">
-         <img src="/src/img/galery-img/section-1/green_park_view_1_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out">
+       <div class="h-64 mt-4 md:mt-0 w-full md:w-[35%] bg-cover">
+         <img src="/src/img/galery-img/section-1/green_park_view_1_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
        </div>
      </div>
 
      <div class="flex flex-col md:flex-row gap-4 mt-4">
-       <div class="rounded h-64 w-full md:w-[35%] bg-cover">
-         <img src="/src/img/galery-img/section-1/wind_farms_fields_1_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out">
+       <div class="h-64 w-full md:w-[35%] bg-cover">
+         <img src="/src/img/galery-img/section-1/wind_farms_fields_1_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
        </div>
  
-       <div class="rounded h-64 mt-4 md:mt-0 w-full md:w-[65%] bg-cover">
-         <img src="/src/img/galery-img/section-1/view_nature_landscape_with_river_1_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out">
+       <div class="h-64 mt-4 md:mt-0 w-full md:w-[65%] bg-cover">
+         <img src="/src/img/galery-img/section-1/view_nature_landscape_with_river_1_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
        </div>
      </div>
    
 
+     <div class="flex mt-36">
+       <div class="flex justify-center items-center gap-4">  
+          <img src="/src/img/icons/Rectangle 331.svg" alt="" class="w-16">
+          <h4 class="text-xl font-medium text-black-rb-100">Mas de 20 clientes confian en nosotros</h4> 
+      </div>
+
+      <div class="flex gap-9 justify-around w-full">
+        <img src="/public/logos/fav_icon.svg" alt="" class="w-16">
+        <img src="/public/logos/fav_icon.svg" alt="" class="w-16">
+        <img src="/public/logos/fav_icon.svg" alt="" class="w-16">
+        <img src="/public/logos/fav_icon.svg" alt="" class="w-16">
+        <img src="/public/logos/fav_icon.svg" alt="" class="w-16">
+      </div>
+     </div>
+
+    
    </section>
    
-    
+<!-- BENEFICIOS SECTION -->
 <section class="bg-black-rb-100 p-10 md:p-20">
   <h3 class="text-secn-white text-3xl text-center font-semibold mb-16">Beneficios</h3>
   <div class=" flex justify-around items-center gap-4 ">
@@ -421,7 +453,7 @@
             <div class="text-8xl lg:text-6xl">
               <i class="ri-plant-line"></i>
             </div>
-            <h4 class="text-xl text-secn-white text-center">Gestión Ambiental</h4>
+            <h4 class="text-xl text-secn-white text-center">Gestión <br> Ambiental</h4>
           </div>
       </div>
     </a>
@@ -433,7 +465,7 @@
             <div class="text-8xl lg:text-6xl">
               <i class='bx bx-book-open'></i>
             </div>
-            <h4 class="text-xl text-secn-white text-center">Informes Ambientales</h4>
+            <h4 class="text-xl text-secn-white text-center">Informes <br> Ambientales</h4>
           </div>
       </div>
     </a>
@@ -445,7 +477,7 @@
             <div class="text-8xl lg:text-6xl">
               <i class='bx bxs-binoculars'></i>
             </div>
-            <h4 class="text-xl text-secn-white text-center">Monitoreos Ambientales</h4>
+            <h4 class="text-xl text-secn-white text-center">Monitoreos <br> Ambientales</h4>
           </div>
       </div>
     </a>
@@ -463,7 +495,7 @@
     </a>
   </div>
   
-  <h2 class="mb-12 mt-14 text-3xl font-semibold border-l-8 border-black-rb-200 text-black-rb-100  inline-block pl-3">Seguridad y Salud<br>Ocupacional</h2>
+  <h2 class="mb-12 mt-14 text-3xl font-semibold border-l-8 border-black-rb-200 text-black-rb-100  inline-block pl-3">Seguridad <br> Indrustrial</h2>
   
   <div class="grid gap-4 lg:grid-cols-4 sr-home-services">
   
@@ -498,7 +530,7 @@
             <div class="text-8xl lg:text-6xl">
               <i class='bx bxs-binoculars'></i>
             </div>
-            <h4 class="text-xl text-secn-white text-center">Monitoreos Laborales</h4>
+            <h4 class="text-xl text-secn-white text-center">Monitoreos <br> Laborales</h4>
           </div>
       </div>
     </a>

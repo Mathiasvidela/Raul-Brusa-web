@@ -11,6 +11,7 @@
 }
 .modal-action{
     margin-top: 1rem;
+    justify-content: start;
 }
 .aspect-square {
     aspect-ratio: 1 / 1;

@@ -50,7 +50,7 @@
               <li><a>Contacto</a></li>
             </ul>
           </div>
-          <img src="public/logos/logo-1.svg" alt="logo raul brusa" class="w-40 btn-ghost pl-3">
+          <img src="public/logos/logo-1.svg" alt="logo raul brusa" class="w-52 btn-ghost pl-3">
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -101,9 +101,9 @@
       <div class="hero-overlay bg-opacity-70"></div>
         <div class=" text-left text-neutral-content w-full justify-start p-20">
           <div class="max-w-lg">
-              <h1 class="mb-5 text-5xl font-bold">Seguridad e Higiene industrial y proteccion civil.</h1>
-              <p class="mb-5">¡Protegiendo tu entorno laboral y comunitario! Expertos en seguridad e higiene para empresas y municipios, asegurando un ambiente seguro para todos.</p>
-              <div class="flex gap-3">
+              <h1 class="mb-5 text-5xl font-bold sr-hero">Seguridad e Higiene industrial y proteccion civil.</h1>
+              <p class="mb-5 sr-hero">¡Protegiendo tu entorno laboral y comunitario! Expertos en seguridad e higiene para empresas y municipios, asegurando un ambiente seguro para todos.</p>
+              <div class="flex gap-3 sr-button">
                 <button class="btn bg-">Contactamé</button>
               <a href="/src/pages/aboutus.html"><button class="btn btn-primary text-white">Sobre Nosotros</button></a>
               </div>
@@ -115,13 +115,13 @@
     
     
 <!-- sobre nosotros     -->
-<section>
+<section id="contadorNums">
   <div class="grid md:grid-cols-2 p-20 gap-12 items-center text-black-rb-100">
 
     <div>
-      <img class="w-full h-96 object-cover rounded" src="https://blog.centrodeelearning.com/wp-content/uploads/2021/06/leaders-of-manufacturing-production-plant-VZ5KZR5.png" alt="">
+      <img class="w-full h-96 object-cover rounded sr-home-about-img" src="https://blog.centrodeelearning.com/wp-content/uploads/2021/06/leaders-of-manufacturing-production-plant-VZ5KZR5.png" alt="">
     </div>
-    <div class="">
+    <div class="sr-home-about">
       <h2 class="font-medium text-3xl mb-4">¿Quienes Somos?</h2>
       <p>Somos una Empresa que brindar el mejor servicio de Asesoría, Prevención de Riesgos, Ingeniería y Capacitación en Seguridad Industrial y Protección Civil en el país; apoyándonos de nuestros Asesores profesionales, altamente capacitados y comprometidos con su comunidad y su empresa. Generando confianza entre nuestros clientes y el promulgando el bienestar para nuestra sociedad.</p>
     </div>
@@ -153,9 +153,9 @@
 <!-- Services card -->
 
 <section class="w-full p-20 bg-gray-300">
-  <h2 class="mb-12 text-3xl font-semibold border-l-8 border-primary inline-block pl-3">Medio <br> Ambiente </h2>
+  <h2 class="mb-12 text-3xl font-semibold border-l-8 border-primary text-black-rb-100 inline-block pl-3">Medio <br> Ambiente </h2>
 
-<div class="grid gap-4 lg:grid-cols-4">
+<div class="grid gap-4 lg:grid-cols-4 sr-home-services">
 
   <a href="/src/pages/medioambiente/gestionAmbiental.html">
     <div class="card card-normal w-full h-96 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
@@ -206,9 +206,9 @@
   </a>
 </div>
 
-<h2 class="mb-12 mt-14 text-3xl font-semibold border-l-8 border-primary inline-block pl-3">Seguridad y Salud<br>Ocupacional</h2>
+<h2 class="mb-12 mt-14 text-3xl font-semibold border-l-8 border-primary text-black-rb-100 inline-block pl-3">Seguridad y Salud<br>Ocupacional</h2>
 
-<div class="grid gap-4 lg:grid-cols-4">
+<div class="grid gap-4 lg:grid-cols-4 sr-home-services">
 
   <a href="#">
     <div class="card card-normal w-full h-96 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
@@ -291,8 +291,9 @@
     </footer>
 
 
-
     <script type="module" src="/src/js/contadores.js"></script>
+    <script type="module" src="/src/js/scrollReveal.js"></script>
     <script src="/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
   </body>
 </html>

@@ -9,7 +9,7 @@
         <title>Raul Brusa & Asociados</title>
       </head>
 <body class="font-poppins">
-    <header>
+    <header class="z-20">
         <div class="navbar bg-base-200">
           <div class="navbar-start dropdown-hover">
             <div class="dropdown">
@@ -29,7 +29,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a>Seguridad y Salud ocupacional</a>
+                  <a>Seguridad Indrustrial</a>
                   <ul class="p-2">
                     <li><a>Gestión de Seguridad y Salud Ocupacional</a></li>
                     <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
@@ -38,7 +38,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a>Proyectos - Remediciones</a>
+                  <a>Proyectos</a>
                   <ul class="p-2">
                     <li><a>Ambientales</a></li>
                     <li><a>Seguridad e Higiene</a></li>
@@ -67,7 +67,7 @@
   
               <li>
                 <details>
-                  <summary>Seguridad y Salud ocupacional</summary>
+                  <summary>Seguridad Industrial</summary>
                   <ul class="p-2">
                     <li><a>Gestión de Seguridad y Salud Ocupacional</a></li>
                     <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
@@ -78,7 +78,7 @@
               </li>
               <li>
                 <details>
-                  <summary>Proyectos - Remediciones</summary>
+                  <summary>Proyectos</summary>
                   <ul class="p-2">
                     <li><a>Ambientales</a></li>
                     <li><a>Seguridad e Higiene</a></li>
@@ -90,26 +90,38 @@
         </div>
       </header>
 
-      
-      <div class="">
-        <img class="w-full" src="/src/img/hero-gestionAmbiental.jpg" alt="">
-    </div>
 
+
+    <div class="hero min-h-80 lg:min-h-[488px] flex items-center justify-center" style="background-image:url('/src/img/hero-gestionAmbiental.jpg');">
+    
+      <div class="relative w-[50%] flex flex-col items-center">
+        <h1 class="font-semibold text-center text-5xl md:text-7xl text-secn-white uppercase z-0"><span class="font-light">Gestión</span> <br> Ambiental</h1>
+        <p class="text-secn-white text-center font-light text-sm mt-2">Mediante la reducción de la contaminación, el uso eficiente de los recursos y la protección de nuestros ecosistemas, garantizamos un equilibrio entre el desarrollo y la naturaleza.</p>
+    
+        <div class="bg-black-rb-100 p-1 inline-block rounded-[100%] w-12 h-12 opacity-70 hover:opacity-100 ease-in-out duration-300 mt-10 text-center">
+          <a href="#services"><i class="ri-arrow-down-line text-4xl text-secn-white"></i></a>
+        </div>
+      </div>
+    </div>
+    
+
+
+   <!-- CARDS SERVICES  -->
       
-<section class="w-full p-10 md:px-20 bg-black-rb-100" >
+<section class="w-full px-10 md:px-20 bg-black-rb-100 py-24 " id="services" >
 
   <h2 class="mb-12 text-3xl font-semibold border-l-8 border-white inline-block pl-3 text-secn-white">Servicios</h2>
 
   <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 
       <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_1.showModal()">
-        <i class=' bx bx-check-square text-5xl'></i>
+        <img src="/src/img/icons/Icon=Arbol.svg" alt="icono del servicio">
         <p>Estudio de Análisis de Riesgos Ambientales</p></div>
       <dialog id="my_modal_1" class="modal">
         <div class="modal-box">
-          <div class="grid grid-cols-1fr-2fr gap-10 items-center">
-            <div class="col-span-1">
-              <img src="/src/img/image 4.jpg" alt="" class="w-90% object-cover h-auto">
+          <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+            <div class="col-span-1 h-full ">
+              <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
             </div>
             <div class="col-span-1 flex-col items-stretch">
               <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
@@ -117,7 +129,7 @@
               
             </div>
           </div>
-          <div class="modal-action">
+          <div class="modal-action lg:justify-end">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
             <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700">Cotizacion</button>
@@ -129,13 +141,13 @@
    
   
       <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_2.showModal()">
-        <i class=' bx bx-check-square text-5xl'></i>
+        <img src="/src/img/icons/Icon=Pino.svg" alt="icono del servicio">
         <p>Estudio de impactos ambientales</p></div>
       <dialog id="my_modal_2" class="modal">
         <div class="modal-box">
-          <div class="grid grid-cols-1fr-2fr gap-10 items-center">
-            <div class="col-span-1">
-              <img src="/src/img/image 4.jpg" alt="" class="w-90% object-cover h-auto">
+          <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+            <div class="col-span-1 h-full">
+              <img src="/src/img/servicios/power-station-4911010_1280.webp" alt="" class="h-full object-cover rounded">
             </div>
             <div class="col-span-1 flex-col items-stretch">
               <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
@@ -143,7 +155,7 @@
               
             </div>
           </div>
-          <div class="modal-action">
+          <div class="modal-action lg:justify-end">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
             <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700">Cotizacion</button>
@@ -155,20 +167,20 @@
    
    
       <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_3.showModal()">
-        <i class=' bx bx-check-square text-5xl'></i>
+        <img src="/src/img/icons/Icon=Volcan.svg" alt="icono del servicio">
         <p>Estudio de Huella de Carbono</p></div>
       <dialog id="my_modal_3" class="modal">
         <div class="modal-box">
-          <div class="grid grid-cols-1fr-2fr gap-10 items-center">
-            <div class="col-span-1">
-              <img src="/src/img/image 4.jpg" alt="" class="w-90% object-cover h-auto">
+          <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+            <div class="col-span-1 h-full">
+              <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
             </div>
             <div class="col-span-1 flex-col items-stretch">
               <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
               <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
             </div>
           </div>
-          <div class="modal-action">
+          <div class="modal-action lg:justify-end">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
             <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700">Cotizacion</button>
@@ -180,20 +192,20 @@
    
    
       <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_4.showModal()">
-        <i class=' bx bx-check-square text-5xl'></i>
+        <img src="/src/img/icons/Icon=Hoja.svg" alt="icono del servicio">
         <p>Plan de Gestión Ambiental</p></div>
       <dialog id="my_modal_4" class="modal">
         <div class="modal-box">
-          <div class="grid grid-cols-1fr-2fr gap-10 items-center">
-            <div class="col-span-1">
-              <img src="/src/img/image 4.jpg" alt="" class="w-90% object-cover h-auto">
+          <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+            <div class="col-span-1 h-full">
+              <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
             </div>
             <div class="col-span-1 flex-col items-stretch">
               <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
               <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
             </div>
           </div>
-          <div class="modal-action">
+          <div class="modal-action lg:justify-end">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
             <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700">Cotizacion</button>
@@ -205,20 +217,20 @@
    
    
       <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_5.showModal()">
-        <i class=' bx bx-check-square text-5xl'></i>
+        <img src="/src/img/icons/Icon=Flor.svg" alt="icono del servicio">
         <p>Plan de Gestión de Riesgos Ambientales</p></div>
       <dialog id="my_modal_5" class="modal">
         <div class="modal-box">
-          <div class="grid grid-cols-1fr-2fr gap-10 items-center">
-            <div class="col-span-1">
-              <img src="/src/img/image 4.jpg" alt="" class="w-90% object-cover h-auto">
+          <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+            <div class="col-span-1 h-full">
+              <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
             </div>
             <div class="col-span-1 flex-col items-stretch">
               <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
               <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
             </div>
           </div>
-          <div class="modal-action">
+          <div class="modal-action lg:justify-end">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
             <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700">Cotizacion</button>
@@ -230,20 +242,20 @@
    
    
       <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_6.showModal()">
-        <i class=' bx bx-check-square text-5xl'></i>
+        <img src="/src/img/icons/Icon=Basura.svg" alt="icono del servicio">
         <p>Plan de Gestión de Residuos</p></div>
       <dialog id="my_modal_6" class="modal">
         <div class="modal-box">
-          <div class="grid grid-cols-1fr-2fr gap-10 items-center">
-            <div class="col-span-1">
-              <img src="/src/img/image 4.jpg" alt="" class="w-90% object-cover h-auto">
+          <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+            <div class="col-span-1 h-full">
+              <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
             </div>
             <div class="col-span-1 flex-col items-stretch">
               <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
               <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
             </div>
           </div>
-          <div class="modal-action">
+          <div class="modal-action lg:justify-end">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
             <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700">Cotizacion</button>
@@ -255,20 +267,20 @@
    
    
       <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_7.showModal()">
-        <i class=' bx bx-check-square text-5xl'></i>
+        <img src="/src/img/icons/Icon=Cuadrado.svg" alt="icono del servicio">
         <p>Categorización Ambiental</p></div>
       <dialog id="my_modal_7" class="modal">
         <div class="modal-box">
-          <div class="grid grid-cols-1fr-2fr gap-10 items-center">
-            <div class="col-span-1">
-              <img src="/src/img/image 4.jpg" alt="" class="w-90% object-cover h-auto">
+          <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+            <div class="col-span-1 h-full">
+              <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
             </div>
             <div class="col-span-1 flex-col items-stretch">
               <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
               <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
             </div>
           </div>
-          <div class="modal-action">
+          <div class="modal-action lg:justify-end">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
             <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700">Cotizacion</button>
@@ -280,20 +292,20 @@
    
    
       <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_8.showModal()">
-        <i class=' bx bx-check-square text-5xl'></i>
+        <img src="/src/img/icons/Icon=Carpeta.svg" alt="icono del servicio">
         <p>Informes Ambientales de Cumplimiento</p></div>
       <dialog id="my_modal_8" class="modal">
         <div class="modal-box">
-          <div class="grid grid-cols-1fr-2fr gap-10 items-center">
-            <div class="col-span-1">
-              <img src="/src/img/image 4.jpg" alt="" class="w-90% object-cover h-auto">
+          <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+            <div class="col-span-1 h-full">
+              <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
             </div>
             <div class="col-span-1 flex-col items-stretch">
               <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
               <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
             </div>
           </div>
-          <div class="modal-action">
+          <div class="modal-action lg:justify-end">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
             <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700">Cotizacion</button>
@@ -305,20 +317,20 @@
    
    
       <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300 md:col-span-2 lg:col-span-1" onclick="my_modal_9.showModal()">
-        <i class=' bx bx-check-square text-5xl'></i>
+        <img src="/src/img/icons/Icon=Personas.svg" alt="icono del servicio">
         <p>Auditorias Ambientales</p></div>
       <dialog id="my_modal_9" class="modal">
         <div class="modal-box">
-          <div class="grid grid-cols-1fr-2fr gap-10 items-center">
-            <div class="col-span-1">
-              <img src="/src/img/image 4.jpg" alt="" class="w-90% object-cover h-auto">
+          <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+            <div class="col-span-1 h-full">
+              <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
             </div>
             <div class="col-span-1 flex-col items-stretch">
               <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
               <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
             </div>
           </div>
-          <div class="modal-action">
+          <div class="modal-action lg:justify-end">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
             <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700">Cotizacion</button>
@@ -327,57 +339,186 @@
         </div>
         </div>
       </dialog>
-   
+  </div>
+    </section>
+
+
+   <section class="p-10 md:p-20">
+
+     <div class="flex flex-col md:flex-row gap-4">
+       <div class="rounded h-64 w-full md:w-[65%] bg-cover">
+         <img src="/src/img/galery-img/section-1/rectangle_362_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out">
+       </div>
+ 
+       <div class="rounded h-64 mt-4 md:mt-0 w-full md:w-[35%] bg-cover">
+         <img src="/src/img/galery-img/section-1/green_park_view_1_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out">
+       </div>
+     </div>
+
+     <div class="flex flex-col md:flex-row gap-4 mt-4">
+       <div class="rounded h-64 w-full md:w-[35%] bg-cover">
+         <img src="/src/img/galery-img/section-1/wind_farms_fields_1_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out">
+       </div>
+ 
+       <div class="rounded h-64 mt-4 md:mt-0 w-full md:w-[65%] bg-cover">
+         <img src="/src/img/galery-img/section-1/view_nature_landscape_with_river_1_2x.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out">
+       </div>
+     </div>
    
 
+   </section>
+   
+    
+<section class="bg-black-rb-100 p-10 md:p-20">
+  <h3 class="text-secn-white text-3xl text-center font-semibold mb-16">Beneficios</h3>
+  <div class=" flex justify-around items-center gap-4 ">
+
+    <div class="flex flex-col items-center">
+      <div class="h-32 w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500 rounded-[100%] mb-3 flex justify-center items-center">
+        <img src="/src/img/icons/b-1.svg" alt="icono beneficios" class="w-12">
+      </div>
+      <p class="text-secn-white text-center">Conservación <br>de Recursos</p>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <div class="h-32 w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
+        <img src="/src/img/icons/b-2.svg" alt="icono beneficios" class="w-12">
+      </div>
+      <p class="text-secn-white text-center">Protección de la <br>Biodiversidad</p>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <div class="h-32 w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
+        <img src="/src/img/icons/b-3.svg" alt="icono beneficios" class="w-12">
+      </div>
+      <p class="text-secn-white text-center">Cumplimiento<br>Legal</p>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <div class="h-32 w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
+        <img src="/src/img/icons/b-4.svg" alt="icono beneficios" class="w-10">
+      </div>
+      <p class="text-secn-white text-center">Buena Imagen<br>Corporativa</p>
+    </div>
 
   </div>
+</section>
+
+
+
+
+
+<!-- SERVICIOS GENERALES -->
+   <section class="w-full p-20 bg-gray-300">
+    <h2 class="mb-12 text-3xl font-semibold border-l-8 border-black-rb-200 text-black-rb-100 inline-block pl-3">Medio <br> Ambiente </h2>
   
- 
-
-
-
-
-
-    </section>
-
-    <section class="px-20">
-
-      <div class="carousel rounded-box w-full h-96 ">
-        <div class="carousel-item w-1/2 ">
-          <img src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" class="w-full object-cover" />
-        </div> 
-        <div class="carousel-item w-1/2">
-          <img src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" class="w-full object-cover" />
-        </div> 
-        <div class="carousel-item w-1/2">
-          <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" class="w-full" />
-        </div> 
-        <div class="carousel-item w-1/2">
-          <img src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" class="w-full" />
-        </div> 
-        <div class="carousel-item w-1/2">
-          <img src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" class="w-full" />
-        </div> 
-        <div class="carousel-item w-1/2">
-          <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" class="w-full" />
-        </div> 
-        <div class="carousel-item w-1/2">
-          <img src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg" class="w-full" />
-        </div>
+  <div class="grid gap-4 lg:grid-cols-4 sr-home-services">
+  
+    <a href="/src/pages/medioambiente/gestionAmbiental.html">
+      <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
+        <figure><img src="/src/img/card_service_1.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
+          <div class="card-body justify-center items-center">
+            <div class="text-8xl lg:text-6xl">
+              <i class="ri-plant-line"></i>
+            </div>
+            <h4 class="text-xl text-secn-white text-center">Gestión Ambiental</h4>
+          </div>
       </div>
-    </section>
-   
-    
-
-
-
-
-
-
-
-
-    
+    </a>
+  
+    <a href="#">
+      <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
+        <figure><img src="/src/img/card_service_2.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
+          <div class="card-body justify-center items-center">
+            <div class="text-8xl lg:text-6xl">
+              <i class='bx bx-book-open'></i>
+            </div>
+            <h4 class="text-xl text-secn-white text-center">Informes Ambientales</h4>
+          </div>
+      </div>
+    </a>
+  
+    <a href="#">
+      <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
+        <figure><img src="/src/img/card_service_3.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
+          <div class="card-body justify-center items-center">
+            <div class="text-8xl lg:text-6xl">
+              <i class='bx bxs-binoculars'></i>
+            </div>
+            <h4 class="text-xl text-secn-white text-center">Monitoreos Ambientales</h4>
+          </div>
+      </div>
+    </a>
+  
+    <a href="#">
+      <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
+        <figure><img src="/src/img/card_service_4.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
+          <div class="card-body justify-center items-center">
+            <div class="text-8xl lg:text-6xl">
+              <i class="ri-award-line"></i>
+            </div>
+            <h4 class="text-xl text-secn-white text-center">Capacitaciones y Entrenamiento de Brigadas</h4>
+          </div>
+      </div>
+    </a>
+  </div>
+  
+  <h2 class="mb-12 mt-14 text-3xl font-semibold border-l-8 border-black-rb-200 text-black-rb-100  inline-block pl-3">Seguridad y Salud<br>Ocupacional</h2>
+  
+  <div class="grid gap-4 lg:grid-cols-4 sr-home-services">
+  
+    <a href="#">
+      <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
+        <figure><img src="/src/img/card_service_5.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
+          <div class="card-body justify-center items-center">
+            <div class="text-8xl lg:text-6xl">
+              <i class="ri-shake-hands-line"></i>
+            </div>
+            <h4 class="text-xl text-secn-white text-center">Gestión de Seguridad y Salud Ocupacional</h4>
+          </div>
+      </div>
+    </a>
+  
+    <a href="#">
+      <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
+        <figure><img src="/src/img/card_service_6.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
+          <div class="card-body justify-center items-center">
+            <div class="text-8xl lg:text-6xl">
+              <i class='bx bx-book-open'></i>
+            </div>
+            <h4 class="text-xl text-secn-white text-center">Informes de Seguridad y Salud Ocupacional</h4>
+          </div>
+      </div>
+    </a>
+  
+    <a href="#">
+      <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
+        <figure><img src="/src/img/card_service_7.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
+          <div class="card-body justify-center items-center">
+            <div class="text-8xl lg:text-6xl">
+              <i class='bx bxs-binoculars'></i>
+            </div>
+            <h4 class="text-xl text-secn-white text-center">Monitoreos Laborales</h4>
+          </div>
+      </div>
+    </a>
+  
+    <a href="#">
+      <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
+        <figure><img src="/src/img/card_service_8.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
+          <div class="card-body justify-center items-center">
+            <div class="text-8xl lg:text-6xl">
+              <i class="ri-award-line"></i>
+            </div>
+            <h4 class="text-xl text-secn-white text-center">Capacitaciones y Entrenamiento de Brigadas</h4>
+          </div>
+      </div>
+    </a>
+  </div>
+  
+      </section>
+  
+<!-- FOOTER  -->
      <footer class="footer p-10 bg-black-rb-100 text-secn-white">
       <aside>
         <img src="/public/logos/logo-1-white.svg" alt="">

@@ -1,38 +1,4 @@
 
-//     function counterStart(){
-
-//         const valueDisplays = document.querySelectorAll('.num');
-//         let interval = 1000;
-
-//         valueDisplays.forEach((valueDisplay) => {
-//             let startValue = 0;
-//             let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-//             let duration = Math.floor(interval / endValue);
-    
-//             let counter = setInterval(function() {
-//                 startValue += 1;
-//                 valueDisplay.innerHTML = startValue;
-    
-//                 if (startValue == endValue) {
-//                     clearInterval(counter);
-//                 }
-//             }, duration);
-    
-//         });
-//     }
-
-// const contadorNums = document.getElementById('contadorNums');
-// let isCounterStarted = false;
-
-// contadorNums.addEventListener('scroll', function(){
-//     if (!isCounterStarted) {
-//         alert('holaaa');
-//         counterStart();
-//         isCounterStarted = true;
-//     }
-// });
-  
-
 
 function counterStart(){
     const valueDisplays = document.querySelectorAll('.num');
@@ -67,7 +33,7 @@ const observer = new IntersectionObserver((entries) => {
         }
     });
 }, {
-    threshold: 0.9 // Ajusta este valor según necesites, 0.5 significa que el 50% del elemento debe ser visible
+    threshold: 0.5 // Ajusta este valor según necesites, 0.5 significa que el 50% del elemento debe ser visible
 });
 
 // Comienza a observar el contenedor

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
     <head>
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/public/logos/fav_icon.svg" />
@@ -10,8 +10,10 @@
         <title>Raul Brusa & Asociados</title>
       </head>
 <body class="font-poppins">
+
+
   <!-- NAV BAR -->
-    <header class="z-20">
+    <header class="z-50 sticky top-0">
         <div class="navbar bg-secn-white">
           <div class="navbar-start dropdown-hover">
             <div class="dropdown">
@@ -73,7 +75,7 @@
               <li>
                 <details>
                   <summary>Medio Ambiente</summary>
-                  <ul class="p-2">
+                  <ul class="p-2 z-50">
                     <li><a>Gestión Ambiental</a></li>
                     <li><a>Informes Ambientales</a></li>
                     <li><a>Monitoreos Ambientales</a></li>
@@ -85,7 +87,7 @@
               <li>
                 <details>
                   <summary>Seguridad Industrial</summary>
-                  <ul class="p-2">
+                  <ul class="p-2 z-50">
                     <li><a>Gestión de Seguridad y Salud Ocupacional</a></li>
                     <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
                     <li><a>Monitoreo Laborales</a></li>
@@ -96,7 +98,7 @@
               <li>
                 <details>
                   <summary>Proyectos</summary>
-                  <ul class="p-2">
+                  <ul class="p-2 z-50">
                     <li><a>Ambientales</a></li>
                     <li><a>Seguridad e Higiene</a></li>
                   </ul>
@@ -108,10 +110,10 @@
       </header>
 
     <!-- HERO -->
-    <div class="hero min-h-80 lg:min-h-[488px] flex items-center justify-center" style="background-image:url('/src/img/hero-gestionAmbiental.jpg');">
+    <div class="hero min-h-96 lg:min-h-[488px] flex items-center justify-center" style="background-image:url('/src/img/hero-gestionAmbiental.jpg');">
     
-      <div class="relative w-[50%] flex flex-col items-center">
-        <h1 class="font-semibold text-center text-5xl md:text-7xl text-secn-white uppercase z-0"><span class="font-light">Gestión</span> <br> Ambiental</h1>
+      <div class="relative w-[70%] lg:w-[50%] flex flex-col items-center">
+        <h1 class="font-semibold text-center text-6xl md:text-7xl text-secn-white uppercase"><span class="font-light">Gestión</span> <br> Ambiental</h1>
         <p class="text-secn-white text-center font-light text-sm mt-2">Mediante la reducción de la contaminación, el uso eficiente de los recursos y la protección de nuestros ecosistemas, garantizamos un equilibrio entre el desarrollo y la naturaleza.</p>
     
         <div class="bg-black-rb-100 p-1 inline-block rounded-[100%] w-12 h-12 opacity-70 hover:opacity-100 ease-in-out duration-300 mt-10 text-center">
@@ -130,9 +132,9 @@
 
   <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 
-      <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_1.showModal()">
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl  text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_1.showModal()">
         <img src="/src/img/icons/Icon=Arbol.svg" alt="icono del servicio">
-        <p>Estudio de Análisis de Riesgos Ambientales</p></div>
+        <p >Estudio de Análisis de Riesgos Ambientales</p></div>
       <dialog id="my_modal_1" class="modal">
         <div class="modal-box">
           <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
@@ -156,7 +158,7 @@
       </dialog>
    
   
-      <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_2.showModal()">
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_2.showModal()">
         <img src="/src/img/icons/Icon=Pino.svg" alt="icono del servicio">
         <p>Estudio de impactos ambientales</p></div>
       <dialog id="my_modal_2" class="modal">
@@ -182,7 +184,7 @@
       </dialog>
    
    
-      <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_3.showModal()">
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_3.showModal()">
         <img src="/src/img/icons/Icon=Volcan.svg" alt="icono del servicio">
         <p>Estudio de Huella de Carbono</p></div>
       <dialog id="my_modal_3" class="modal">
@@ -207,7 +209,7 @@
       </dialog>
    
    
-      <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_4.showModal()">
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_4.showModal()">
         <img src="/src/img/icons/Icon=Hoja.svg" alt="icono del servicio">
         <p>Plan de Gestión Ambiental</p></div>
       <dialog id="my_modal_4" class="modal">
@@ -232,7 +234,7 @@
       </dialog>
    
    
-      <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_5.showModal()">
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_5.showModal()">
         <img src="/src/img/icons/Icon=Flor.svg" alt="icono del servicio">
         <p>Plan de Gestión de Riesgos Ambientales</p></div>
       <dialog id="my_modal_5" class="modal">
@@ -257,7 +259,7 @@
       </dialog>
    
    
-      <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_6.showModal()">
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_6.showModal()">
         <img src="/src/img/icons/Icon=Basura.svg" alt="icono del servicio">
         <p>Plan de Gestión de Residuos</p></div>
       <dialog id="my_modal_6" class="modal">
@@ -282,7 +284,7 @@
       </dialog>
    
    
-      <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_7.showModal()">
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_7.showModal()">
         <img src="/src/img/icons/Icon=Cuadrado.svg" alt="icono del servicio">
         <p>Categorización Ambiental</p></div>
       <dialog id="my_modal_7" class="modal">
@@ -307,7 +309,7 @@
       </dialog>
    
    
-      <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_8.showModal()">
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_8.showModal()">
         <img src="/src/img/icons/Icon=Carpeta.svg" alt="icono del servicio">
         <p>Informes Ambientales de Cumplimiento</p></div>
       <dialog id="my_modal_8" class="modal">
@@ -332,7 +334,7 @@
       </dialog>
    
    
-      <div class="cursor-pointer flex p-10 gap-10 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300 md:col-span-2 lg:col-span-1" onclick="my_modal_9.showModal()">
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300 md:col-span-2 lg:col-span-1" onclick="my_modal_9.showModal()">
         <img src="/src/img/icons/Icon=Personas.svg" alt="icono del servicio">
         <p>Auditorias Ambientales</p></div>
       <dialog id="my_modal_9" class="modal">
@@ -359,7 +361,7 @@
     </section>
 
 <!-- IMAGES SECTION -->
-   <section class="p-10 md:p-20">
+   <section class="p-10 md:p-20 bg-secn-white-200">
 
      <div class="flex flex-col md:flex-row gap-4">
        <div class="h-64 w-full md:w-[65%] bg-cover">
@@ -381,53 +383,58 @@
        </div>
      </div>
    
+   
+      <div class="flex flex-col lg:flex-row mt-14">
 
-     <div class="flex mt-36">
-       <div class="flex justify-center items-center gap-4">  
-          <img src="/src/img/icons/Rectangle 331.svg" alt="" class="w-16">
-          <h4 class="text-xl font-medium text-black-rb-100">Mas de 20 clientes confian en nosotros</h4> 
+        <div class="flex justify-center items-center gap-4 text-center mb-11 lg:mb-0 lg:text-left">  
+           <img src="/src/img/icons/Rectangle 331.svg" alt="" class="w-16 hidden lg:block">
+           <h4 class="text-xl font-medium text-black-rb-100">Mas de 20 clientes confian en nosotros</h4> 
+       </div>
+  
+  
+       <div class="flex gap-9 justify-around w-full">
+         <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+         <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+         <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+         <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+         <img src="/public/logos/fav_icon.svg" alt="" class="hidden sm:block sm:w-14 lg:w-16 ">
+       </div>
+
       </div>
 
-      <div class="flex gap-9 justify-around w-full">
-        <img src="/public/logos/fav_icon.svg" alt="" class="w-16">
-        <img src="/public/logos/fav_icon.svg" alt="" class="w-16">
-        <img src="/public/logos/fav_icon.svg" alt="" class="w-16">
-        <img src="/public/logos/fav_icon.svg" alt="" class="w-16">
-        <img src="/public/logos/fav_icon.svg" alt="" class="w-16">
-      </div>
-     </div>
+
 
     
    </section>
    
 <!-- BENEFICIOS SECTION -->
-<section class="bg-black-rb-100 p-10 md:p-20">
+<section class="bg-black-rb-100 p-10 md:px-20">
   <h3 class="text-secn-white text-3xl text-center font-semibold mb-16">Beneficios</h3>
-  <div class=" flex justify-around items-center gap-4 ">
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 ">
 
-    <div class="flex flex-col items-center">
-      <div class="h-32 w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500 rounded-[100%] mb-3 flex justify-center items-center">
+    <div class="flex flex-col  items-center">
+      <div class="h-28 w-28 md:h-32 md:w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500 rounded-[100%] mb-3 flex justify-center items-center">
         <img src="/src/img/icons/b-1.svg" alt="icono beneficios" class="w-12">
       </div>
       <p class="text-secn-white text-center">Conservación <br>de Recursos</p>
     </div>
 
     <div class="flex flex-col items-center">
-      <div class="h-32 w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
+      <div class="h-28 w-28 md:h-32 md:w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
         <img src="/src/img/icons/b-2.svg" alt="icono beneficios" class="w-12">
       </div>
       <p class="text-secn-white text-center">Protección de la <br>Biodiversidad</p>
     </div>
 
     <div class="flex flex-col items-center">
-      <div class="h-32 w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
+      <div class="h-28 w-28 md:h-32 md:w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
         <img src="/src/img/icons/b-3.svg" alt="icono beneficios" class="w-12">
       </div>
       <p class="text-secn-white text-center">Cumplimiento<br>Legal</p>
     </div>
 
     <div class="flex flex-col items-center">
-      <div class="h-32 w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
+      <div class="h-28 w-28 md:h-32 md:w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
         <img src="/src/img/icons/b-4.svg" alt="icono beneficios" class="w-10">
       </div>
       <p class="text-secn-white text-center">Buena Imagen<br>Corporativa</p>
@@ -437,11 +444,8 @@
 </section>
 
 
-
-
-
 <!-- SERVICIOS GENERALES -->
-   <section class="w-full p-20 bg-gray-300">
+   <section class="w-full p-20 bg-secn-white-200">
     <h2 class="mb-12 text-3xl font-semibold border-l-8 border-black-rb-200 text-black-rb-100 inline-block pl-3">Medio <br> Ambiente </h2>
   
   <div class="grid gap-4 lg:grid-cols-4 sr-home-services">
@@ -450,7 +454,7 @@
       <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
         <figure><img src="/src/img/card_service_1.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
           <div class="card-body justify-center items-center">
-            <div class="text-8xl lg:text-6xl">
+            <div class="text-5xl sm:text-7xl lg:text-6xl">
               <i class="ri-plant-line"></i>
             </div>
             <h4 class="text-xl text-secn-white text-center">Gestión <br> Ambiental</h4>
@@ -462,7 +466,7 @@
       <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
         <figure><img src="/src/img/card_service_2.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
           <div class="card-body justify-center items-center">
-            <div class="text-8xl lg:text-6xl">
+            <div class="text-5xl sm:text-7xl lg:text-6xl">
               <i class='bx bx-book-open'></i>
             </div>
             <h4 class="text-xl text-secn-white text-center">Informes <br> Ambientales</h4>
@@ -474,8 +478,8 @@
       <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
         <figure><img src="/src/img/card_service_3.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
           <div class="card-body justify-center items-center">
-            <div class="text-8xl lg:text-6xl">
-              <img src="/src/img/icons/gravity-ui_binoculars.svg" alt="">
+            <div>
+              <img src="/src/img/icons/gravity-ui_binoculars.svg" alt="" class="w-[3rem] sm:w-[3.6rem]">
             </div>
             <h4 class="text-xl text-secn-white text-center">Monitoreos <br> Ambientales</h4>
           </div>
@@ -486,7 +490,7 @@
       <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
         <figure><img src="/src/img/card_service_4.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
           <div class="card-body justify-center items-center">
-            <div class="text-8xl lg:text-6xl">
+            <div class="text-5xl sm:text-7xl lg:text-6xl">
               <i class="ri-award-line"></i>
             </div>
             <h4 class="text-xl text-secn-white text-center">Capacitaciones y Entrenamiento de Brigadas</h4>
@@ -503,7 +507,7 @@
       <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
         <figure><img src="/src/img/card_service_5.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
           <div class="card-body justify-center items-center">
-            <div class="text-8xl lg:text-6xl">
+            <div class="text-5xl sm:text-7xl lg:text-6xl">
               <i class="ri-shake-hands-line"></i>
             </div>
             <h4 class="text-xl text-secn-white text-center">Gestión de Seguridad y Salud Ocupacional</h4>
@@ -515,7 +519,7 @@
       <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
         <figure><img src="/src/img/card_service_6.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
           <div class="card-body justify-center items-center">
-            <div class="text-8xl lg:text-6xl">
+            <div class="text-5xl sm:text-7xl lg:text-6xl">
               <i class='bx bx-book-open'></i>
             </div>
             <h4 class="text-xl text-secn-white text-center">Informes de Seguridad y Salud Ocupacional</h4>
@@ -527,8 +531,8 @@
       <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
         <figure><img src="/src/img/card_service_7.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
           <div class="card-body justify-center items-center">
-            <div class="text-8xl lg:text-6xl">
-              <img src="/src/img/icons/gravity-ui_binoculars.svg" alt="">
+            <div>
+              <img src="/src/img/icons/gravity-ui_binoculars.svg" alt="" class="w-[3rem] sm:w-[3.6rem]">
             </div>
             <h4 class="text-xl text-secn-white text-center">Monitoreos <br> Laborales</h4>
           </div>
@@ -539,7 +543,7 @@
       <div class="card card-normal w-full h-60 image-full shadow-x overflow-hidden hover:scale-105 ease-in-out duration-300 hover:opacity-90">
         <figure><img src="/src/img/card_service_8.webp" alt="Shoes" class="w-full h-full object-cover" /></figure>
           <div class="card-body justify-center items-center">
-            <div class="text-8xl lg:text-6xl">
+            <div class="text-5xl sm:text-7xl lg:text-6xl">
               <i class="ri-award-line"></i>
             </div>
             <h4 class="text-xl text-secn-white text-center">Capacitaciones y Entrenamiento de Brigadas</h4>

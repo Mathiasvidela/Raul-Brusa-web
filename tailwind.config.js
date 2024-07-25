@@ -22,8 +22,8 @@ export default {
 
       colors: {
         'primary-red': '#d04e54',
-        'secn-white' : '#f9f9f9',
-        'secn-white-200' : '#F6F6F6',
+        'secn-white' : '#f6f6f6',
+        'secn-white-200' : '#E7E6E9',
         'black-rb-100' : '#2E434D',
         'black-rb-200' : '#546C76'
       },

@@ -9,86 +9,116 @@
         <title>Raul Brusa & Asociados</title>
       </head>
 <body class="font-poppins">
-    <header>
-        <div class="navbar bg-base-200">
-          <div class="navbar-start dropdown-hover">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-              </div>
-              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a href="/index.html" >Home</a></li>
-                <li><a href="/src/pages/aboutus.html" >Sobre nosotros</a></li>
-                <li>
-                  <a>Medio Ambiente</a>
-                  <ul class="p-2">
-                    <li><a href="medioambiente/gestionAmbiental.html">Gestión Ambiental</a></li>
-                    <li><a>Informes Ambientales</a></li>
-                    <li><a>Monitoreos Ambientales</a></li>
-                    <li><a>Capacitaciones Ambientales y Entrenamiento de Brigadas de Emergencia</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a>Seguridad y Salud ocupacional</a>
-                  <ul class="p-2">
-                    <li><a>Gestión de Seguridad y Salud Ocupacional</a></li>
-                    <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
-                    <li><a>Monitoreo Laborales</a></li>
-                    <li><a>Capacitaciones Laborales y Entrenamiento de Brigadas de Emergencia</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a>Proyectos - Remediciones</a>
-                  <ul class="p-2">
-                    <li><a>Ambientales</a></li>
-                    <li><a>Seguridad e Higiene</a></li>
-                  </ul>
-                </li>
-                <li><a>Contacto</a></li>
-              </ul>
-            </div>
-            <img src="/public/logos/logo-1.svg" alt="logo raul brusa" class="w-40 btn-ghost pl-3">
+  <!-- NAV BAR -->
+  <header class="z-50 sticky top-0">
+    <div class="navbar bg-secn-white">
+      <div class="navbar-start dropdown-hover">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-              <li><a href="/index.html" >Home</a></li>  
-              <li><a href="/src/pages/aboutus.html">Sobre nosotros</a></li>
-              <li>
-                <details>
-                  <summary>Medio Ambiente</summary>
-                  <ul class="p-2">
-                    <li><a href="medioambiente/gestionAmbiental.html">Gestión Ambiental</a></li>
-                    <li><a>Informes Ambientales</a></li>
-                    <li><a>Monitoreos Ambientales</a></li>
-                    <li><a>Capacitaciones Ambientales y Entrenamiento de Brigadas de Emergencia</a></li>
-                  </ul>
-                </details>
-              </li>
-  
-              <li>
-                <details>
-                  <summary>Seguridad y Salud ocupacional</summary>
-                  <ul class="p-2">
-                    <li><a>Gestión de Seguridad y Salud Ocupacional</a></li>
-                    <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
-                    <li><a>Monitoreo Laborales</a></li>
-                    <li><a>Capacitaciones Laborales y Entrenamiento de Brigadas de Emergencia</a></li>
-                  </ul>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>Proyectos - Remediciones</summary>
-                  <ul class="p-2">
-                    <li><a>Ambientales</a></li>
-                    <li><a>Seguridad e Higiene</a></li>
-                  </ul>
-                </details>
-              </li>
-              <li><a>Contacto</a></li>
-            </ul>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            
+            <li><a href="/index.html">Home</a></li>
+
+            <li><a href="/src/pages/aboutus.html" >Sobre nosotros</a></li>
+
+            <li>
+              <details>
+                <summary>Medio Ambiente</summary>
+                <ul class="p-2">
+                    <li><a href="/src/pages/medioambiente/gestionAmbiental.html">Gestión Ambiental</a></li>
+                    <hr>
+                    <li><a href="/src/pages/medioambiente/informesAmbientales.html">Informes Ambientales</a></li>
+                    <hr>
+                    <li><a href="/src/pages/medioambiente/monitoreosAmbientales.html">Monitoreos Ambientales</a></li>
+                    <hr>
+                    <li><a href="/src/pages/medioambiente/capacitacionesAmbientales.html">Capacitaciones y Entrenamiento de Brigadas</a></li>
+                </ul>
+              </details>
+            </li>
+
+            <li>
+              <details>
+                <summary>Seguridad Industrial</summary>
+                <ul class="p-2">
+                  <li><a>Gestión de Seguridad y Salud Ocupacional</a></li>
+                  <hr>
+                  <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
+                  <hr>
+                  <li><a>Monitoreo Laborales</a></li>
+                  <hr>
+                  <li><a>Capacitaciones Laborales y Entrenamiento de Brigadas de Emergencia</a></li>
+                </ul>
+              </details>
+            </li>
+
+            <li>
+              <details>
+                <summary>Proyectos</summary>
+                <ul class="p-2">
+                  <li><a>Ambientales</a></li>
+                  <hr>
+                  <li><a>Seguridad e Higiene</a></li>
+                </ul>
+              </details>
+            </li>
+
+            <li><a>Contacto</a></li>
+
+          </ul>
         </div>
-      </header>
+
+        <img src="/public/logos/logo-1.svg" alt="logo raul brusa" class="w-52 btn-ghost pl-3">
+      </div>
+      
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="/index.html" >Home</a></li>  
+          <li><a href="/src/pages/aboutus.html">Sobre nosotros</a></li>
+          <li>
+            <details>
+              <summary>Medio Ambiente</summary>
+              <ul class="p-2 z-50">
+                <li><a href="/src/pages/medioambiente/gestionAmbiental.html">Gestión Ambiental</a></li>
+                <hr>
+                <li><a href="/src/pages/medioambiente/informesAmbientales.html">Informes Ambientales</a></li>
+                <hr>
+                <li><a href="/src/pages/medioambiente/monitoreosAmbientales.html">Monitoreos Ambientales</a></li>
+                <hr>
+                <li><a href="/src/pages/medioambiente/capacitacionesAmbientales.html">Capacitaciones y Entrenamiento de Brigadas</a></li>
+              </ul>
+            </details>
+          </li>
+
+          <li>
+            <details>
+              <summary>Seguridad Industrial</summary>
+              <ul class="p-2 z-50">
+                <li><a>Gestión de Seguridad y Salud Ocupacional</a></li>
+                <hr>
+                <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
+                <hr>
+                <li><a>Monitoreo Laborales</a></li>
+                <hr>
+                <li><a>Capacitaciones Laborales y Entrenamiento de Brigadas de Emergencia</a></li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>Proyectos</summary>
+              <ul class="p-2 z-50">
+                <li><a>Ambientales</a></li>
+                <hr>
+                <li><a>Seguridad e Higiene</a></li>
+              </ul>
+            </details>
+          </li>
+          <li><a>Contacto</a></li>
+        </ul>
+    </div>
+  </header>
 
  <!-- HERO SECTION -->
      <section class="bg-gray-300">

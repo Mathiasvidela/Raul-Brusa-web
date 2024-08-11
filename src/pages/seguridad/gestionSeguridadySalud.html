@@ -11,8 +11,8 @@
       </head>
 <body class="font-poppins">
 
-  
-<!-- NAV BAR -->
+
+  <!-- NAV BAR -->
     <header class="z-50 sticky top-0 shadow-md">
         <div class="navbar bg-secn-white">
           <div class="navbar-start dropdown-hover">
@@ -123,30 +123,34 @@
         </div>
       </header>
 
-<!-- HERO -->
-    <div class="hero min-h-96 lg:min-h-[488px] flex items-center justify-center" style="background-image:url('/src/img/hero-monitoreos-ambientales-1.jpg');">
+    <!-- HERO -->
+    <div class="hero min-h-96 lg:min-h-[488px] flex items-center justify-center" style="background-image:url('/src/img/hero-seguridad-salud-1.jpg');">
     
       <div class="relative w-[70%] lg:w-[50%] flex flex-col items-center">
-        <h1 class="font-semibold text-center text-6xl md:text-7xl text-secn-white uppercase"><span class="font-light">Monitores</span> <br> Ambientales</h1>
-        <p class="text-secn-white text-center font-light text-sm mt-2">Medimos la calidad del aire, agua y suelo, detectando cambios y posibles riesgos. Garantizamos el cumplimiento de normativas y promueven prácticas sostenibles. Con datos precisos, tomamos decisiones informadas para un futuro más saludable.</p>
+        <h1 class="font-semibold text-center text-5xl md:text-6xl text-secn-white uppercase"><span class="font-light">GESTIÓN DE </span><br> SEGURIDAD Y SALUD OCUPACIONAL </h1>
+        <p class="text-secn-white text-center font-light text-sm mt-2">Crea un ambiente laboral seguro y saludable mediante la identificación y control de riesgos, capacitación continua y cumplimiento de normativas.</p>
     
-        <div class="bg-black-rb-100 p-1 inline-block rounded-[100%] w-12 h-12 opacity-70 hover:opacity-100 ease-in-out duration-300 mt-10 text-center">
+        <div class="bg-secn-white p-1 inline-block rounded-[100%] w-12 h-12 bg-opacity-40 hover:opacity-100 hover:bg-primary-red ease-in-out duration-300 mt-10 text-center">
           <a href="#services"><i class="ri-arrow-down-line text-4xl text-secn-white"></i></a>
         </div>
       </div>
     </div>
     
-<!-- CARDS SERVICES  -->
-      
-<section class="w-full px-10 md:px-20 bg-black-rb-100 py-24 " id="services" >
 
-  <h2 class="mb-12 text-3xl font-semibold text-center text-secn-white">Servicios</h2>
+
+   <!-- CARDS SERVICES 1 -->
+      
+<section class="w-full px-10 md:px-20 bg-secn-white-200 py-24 " id="services" >
+
+  <h2 class="mb-12 text-3xl font-semibold text-center text-primary-red">Servicios</h2>
 
   <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 
-      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl  text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_1.showModal()">
-        <img src="/src/img/icons/Icon=ruido.svg" class="w-12" alt="icono del servicio">
-        <p >Ruido Ambiental</p></div>
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-secn-white text-base sm:text-xl text-black-rb-100 rounded hover:shadow-md hover:bg-primary-red hover:scale-105 ease-in-out duration-300 hover:text-secn-white card-h" onclick="my_modal_1.showModal()">
+        <img src="/src/img/icons/Icon=Fuego, Color=White.svg" class="w-10 hidden icon-white" alt="icono del servicio">
+        <img src="/src/img/icons/red/Icon=Fuego, Color=Red.svg" class="w-10 block icon-red" alt="icono del servicio">
+
+        <p>Estudio de Carga de Fuego</p></div>
       <dialog id="my_modal_1" class="modal">
         <div class="modal-box">
           <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
@@ -170,9 +174,11 @@
       </dialog>
    
   
-      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_2.showModal()">
-        <img src="/src/img/icons/plant=ico.svg" class="w-12" alt="icono del servicio">
-        <p>Análisis de Suelo</p></div>
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-secn-white text-base sm:text-xl text-black-rb-100 rounded hover:shadow-md hover:bg-primary-red hover:scale-105 ease-in-out duration-300 hover:text-secn-white card-h" onclick="my_modal_2.showModal()">
+        <img src="/src/img/icons/Icon=Matafuego.svg" class="w-8 hidden icon-white" alt="icono del servicio">
+        <img src="/src/img/icons/red/Icon=Matafuego, Color=Red.svg" class="w-8 block icon-red" alt="icono del servicio">
+
+        <p>Dirección técnica de Empresas de Recarga de Extintores</p></div>
       <dialog id="my_modal_2" class="modal">
         <div class="modal-box">
           <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
@@ -196,9 +202,10 @@
       </dialog>
    
    
-      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_3.showModal()">
-        <img src="/src/img/icons/Icon=Agua.svg" class="w-12" alt="icono del servicio">
-        <p>Análisis de Napas</p></div>
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-secn-white text-base sm:text-xl text-black-rb-100 rounded hover:shadow-md hover:bg-primary-red hover:scale-105 ease-in-out duration-300 hover:text-secn-white card-h" onclick="my_modal_3.showModal()">
+        <img src="/src/img/icons/Icon=Fuego 2, Color=White.svg" class="w-16 hidden icon-white" alt="icono del servicio">
+        <img src="/src/img/icons/red/Icon=Fuego 2, Color=Red.svg" class="w-16 block icon-red" alt="icono del servicio">
+        <p>Diseño de Red de Incendios</p></div>
       <dialog id="my_modal_3" class="modal">
         <div class="modal-box">
           <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
@@ -221,9 +228,11 @@
       </dialog>
    
    
-      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_4.showModal()">
-        <img src="/src/img/icons/Icon=Viento.svg" class="w-14" alt="icono del servicio">
-        <p>Análisis de Aire</p></div>
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-secn-white text-base sm:text-xl text-black-rb-100 rounded hover:shadow-md hover:bg-primary-red hover:scale-105 ease-in-out duration-300 hover:text-secn-white card-h" onclick="my_modal_4.showModal()">
+        <img src="/src/img/icons/Icon=Medir, Color=White.svg" class="w-12 hidden icon-white" alt="icono del servicio">
+        <img src="/src/img/icons/red/Icon=Medir, Color=Red.svg" class="w-12 block icon-red" alt="icono del servicio">
+
+        <p>Habilitación de Aparatos Sometidos a Presión y Calderas</p></div>
       <dialog id="my_modal_4" class="modal">
         <div class="modal-box">
           <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
@@ -245,10 +254,12 @@
         </div>
       </dialog>
    
-  
-      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_5.showModal()">
-        <img src="/src/img/icons/Icon=Localizador.svg" alt="icono del servicio">
-        <p>Monitoreos de Emisiones de Fuentes Fijas</p></div>
+   
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-secn-white text-base sm:text-xl text-black-rb-100 rounded hover:shadow-md hover:bg-primary-red hover:scale-105 ease-in-out duration-300 hover:text-secn-white card-h" onclick="my_modal_5.showModal()">
+        <img src="/src/img/icons/Icon=Regla, Color=White.svg" class=" hidden icon-white" alt="icono del servicio">
+        <img src="/src/img/icons/red/Icon=Regla, Color=Red.svg" class=" block icon-red" alt="icono del servicio">
+
+        <p>Estudios Técnicos de Ergonomia</p></div>
       <dialog id="my_modal_5" class="modal">
         <div class="modal-box">
           <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
@@ -271,9 +282,11 @@
       </dialog>
    
    
-      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-black-rb-200 text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-[#698894] hover:scale-105 ease-in-out duration-300" onclick="my_modal_6.showModal()">
-        <img src="/src/img/icons/Icon=Parlante.svg" alt="icono del servicio">
-        <p>Ruidos Molestos al Vecindario</p></div>
+      <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-secn-white text-base sm:text-xl text-black-rb-100 rounded hover:shadow-md hover:bg-primary-red hover:scale-105 ease-in-out duration-300 hover:text-secn-white card-h" onclick="my_modal_6.showModal()">
+        <img src="/src/img/icons/Icon=Polvo, Color=White.svg" class="hidden icon-white" alt="icono del servicio">
+        <img src="/src/img/icons/red/Icon=Polvo, Color=Red.svg" class="block icon-red" alt="icono del servicio">
+
+        <p>Evaluación  de Riesgo para Mitigar Explosiones de Polvo</p></div>
       <dialog id="my_modal_6" class="modal">
         <div class="modal-box">
           <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
@@ -294,30 +307,205 @@
         </div>
         </div>
       </dialog>
-  </div>
 
+   
+  </div>
     </section>
+
+  <!-- CARDS SERVICES 2  -->
+      
+  <section class="w-full px-10 md:px-20 bg-primary-red-200 py-24 " id="services" >
+
+    <h2 class="mb-12 text-3xl font-semibold text-center text-secn-white">Servicios</h2>
+  
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+  
+        <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-primary-red text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-secn-white hover:scale-105 ease-in-out duration-300 hover:text-black-rb-100 card-h-red" onclick="my_modal_7.showModal()">
+          <img src="/src/img/icons/red/Icon=Casco, Color=Red.svg" class="w-12 icon-red hidden" alt="icono del servicio">
+          <img src="/src/img/icons/Icon=Casco, Color=White.svg" class="w-12 block icon-white" alt="icono del servicio">
+
+          <p>Plan de Gestión de Riesgos Laborales</p></div>
+        <dialog id="my_modal_7" class="modal">
+          <div class="modal-box">
+            <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+              <div class="col-span-1 h-full hidden md:block">
+                <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
+              </div>
+              <div class="col-span-1 flex-col items-stretch">
+                <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
+                <p >Diseñamos estrategias para manejar de forma eficiente y segura los desechos generados por tus actividades. Este plan incluye la reducción, reutilización, reciclaje y disposición adecuada de residuos, garantizando el cumplimiento de normativas ambientales.</p>
+                
+              </div>
+            </div>
+            <div class="modal-action lg:justify-end">
+              <form method="dialog">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700 mb-3 lg:mb-0">Cotizacion</button>
+                <button class="btn">Close</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+     
+    
+        <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-primary-red text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-secn-white hover:scale-105 ease-in-out duration-300 hover:text-black-rb-100 card-h-red" onclick="my_modal_8.showModal()">
+          <img src="/src/img/icons/red/Icon=Auditoria, Color=Red.svg" class="w-10 icon-red hidden" alt="icono del servicio">
+          <img src="/src/img/icons/Icon=Auditoria, Color=White.svg" class="w-10 icon-white block" alt="icono del servicio">
+
+          <p>Auditorias Laborales</p></div>
+        <dialog id="my_modal_8" class="modal">
+          <div class="modal-box">
+            <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+              <div class="col-span-1 h-full hidden md:block">
+                <img src="/src/img/servicios/power-station-4911010_1280.webp" alt="" class="h-full object-cover rounded ">
+              </div>
+              <div class="col-span-1 flex-col items-stretch">
+                <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
+                
+              </div>
+            </div>
+            <div class="modal-action lg:justify-end">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700 mb-3 lg:mb-0">Cotizacion</button>
+              <button class="btn">Close</button>
+            </form>
+          </div>
+          </div>
+        </dialog>
+     
+     
+        <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-primary-red text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-secn-white hover:scale-105 ease-in-out duration-300 hover:text-black-rb-100 card-h-red" onclick="my_modal_9.showModal()">
+          <img src="/src/img/icons/red/Icon=Trabjador, Color=Red.svg" class="w-12 hidden icon-red" alt="icono del servicio">
+          <img src="/src/img/icons/Icon=Trabjador, Color=White.svg" class="w-12 block icon-white" alt="icono del servicio">
+
+          <p>Diseño de Sistemas de Control de Contratistas</p></div>
+        <dialog id="my_modal_9" class="modal">
+          <div class="modal-box">
+            <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+              <div class="col-span-1 h-full hidden md:block">
+                <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
+              </div>
+              <div class="col-span-1 flex-col items-stretch">
+                <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
+              </div>
+            </div>
+            <div class="modal-action lg:justify-end">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700 mb-3 lg:mb-0">Cotizacion</button>
+              <button class="btn">Close</button>
+            </form>
+          </div>
+          </div>
+        </dialog>
+     
+     
+        <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-primary-red text-base sm:text-xl text-secn-white black-rb-100 rounded hover:shadow-md hover:bg-secn-white hover:scale-105 ease-in-out duration-300 hover:text-black-rb-100 card-h-red" onclick="my_modal_10.showModal()">
+          <img src="/src/img/icons/red/Icon=Personas, Color=Red.svg" class="w-14 hidden icon-red" alt="icono del servicio">
+          <img src="/src/img/icons/Icon=Personas.svg" class="w-14 block icon-white" alt="icono del servicio">
+
+          <p>Realización de Progamas Anuales de Seguridad y Salud Ocupacional</p></div>
+        <dialog id="my_modal_10" class="modal">
+          <div class="modal-box">
+            <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+              <div class="col-span-1 h-full hidden md:block">
+                <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
+              </div>
+              <div class="col-span-1 flex-col items-stretch">
+                <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
+              </div>
+            </div>
+            <div class="modal-action lg:justify-end">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700 mb-3 lg:mb-0">Cotizacion</button>
+              <button class="btn">Close</button>
+            </form>
+          </div>
+          </div>
+        </dialog>
+     
+     
+        <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-primary-red text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-secn-white hover:scale-105 ease-in-out duration-300 hover:text-black-rb-100 card-h-red" onclick="my_modal_11.showModal()">
+          <img src="/src/img/icons/Icon=Localizador.svg" alt="icono del servicio">
+
+          <p>Estudio de Peligros y Riesgos Laborales</p></div>
+        <dialog id="my_modal_11" class="modal">
+          <div class="modal-box">
+            <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+              <div class="col-span-1 h-full hidden md:block">
+                <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
+              </div>
+              <div class="col-span-1 flex-col items-stretch">
+                <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
+              </div>
+            </div>
+            <div class="modal-action lg:justify-end">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700 mb-3 lg:mb-0">Cotizacion</button>
+              <button class="btn">Close</button>
+            </form>
+          </div>
+          </div>
+        </dialog>
+     
+     
+        <div class="cursor-pointer flex p-5 md:p-10 gap-4 items-center justify-items-center text-left md:flex-col md:text-center md:gap-5 bg-primary-red text-base sm:text-xl text-secn-white rounded hover:shadow-md hover:bg-secn-white hover:scale-105 ease-in-out duration-300 hover:text-black-rb-100 card-h-red" onclick="my_modal_12.showModal()">
+          <img src="/src/img/icons/red/Icon=Escudo 3, Color=Red.svg" class="hidden icon-red" alt="icono del servicio">
+          <img src="/src/img/icons/Icon=Escudo 3, Color=White.svg" class="block icon-white" alt="icono del servicio">
+
+          <p>Dirección de Servicios de Seguridad y Salud Ocupacional</p></div>
+        <dialog id="my_modal_12" class="modal">
+          <div class="modal-box">
+            <div class="grid lg:grid-cols-1fr-2fr gap-10 items-center">
+              <div class="col-span-1 h-full hidden md:block">
+                <img src="/src/img/servicios/pexels-pixabay-39553.webp" alt="" class="h-full object-cover rounded">
+              </div>
+              <div class="col-span-1 flex-col items-stretch">
+                <h3 class="font-bold text-2xl text-primary-red mb-4">Estudio de Análisis de Riesgos Ambientales</h3>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste blanditiis ut quae eaque cum vel ducimus modi soluta accusantium praesentium eum ullam qui suscipit provident, maxime non officiis sapiente.</p>
+              </div>
+            </div>
+            <div class="modal-action lg:justify-end">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn bg-primary-red text-white mr-3 hover:bg-red-700 mb-3 lg:mb-0">Cotizacion</button>
+              <button class="btn">Close</button>
+            </form>
+          </div>
+          </div>
+        </dialog>
+  
+     
+    </div>
+      </section>
 
 <!-- IMAGES SECTION -->
    <section class="p-10 md:p-20 bg-secn-white-200">
 
      <div class="flex flex-col md:flex-row gap-4">
        <div class="h-64 w-full md:w-[65%] bg-cover">
-         <img src="/src/img/galery-img/section-3/view_nature_landscape_with_river_1.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
+         <img src="/src/img/galery-img/section-4/image-1.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
        </div>
  
        <div class="h-64 mt-4 md:mt-0 w-full md:w-[35%] bg-cover">
-         <img src="/src/img/galery-img/section-3/green_park_view_1.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
+         <img src="/src/img/galery-img/section-4/image-2.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
        </div>
      </div>
 
      <div class="flex flex-col md:flex-row gap-4 mt-4">
        <div class="h-64 w-full md:w-[35%] bg-cover">
-         <img src="/src/img/galery-img/section-3/view_nature_landscape_with_river_2.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
+         <img src="/src/img/galery-img/section-4/image-3.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
        </div>
  
        <div class="h-64 mt-4 md:mt-0 w-full md:w-[65%] bg-cover">
-         <img src="/src/img/galery-img/section-3/green_park_view_2.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
+         <img src="/src/img/galery-img/section-4/image-4.webp" alt="" class="object-cover w-full h-full hover:opacity-90 duration-300 ease-in-out rounded">
        </div>
      </div>
    
@@ -346,34 +534,34 @@
    </section>
    
 <!-- BENEFICIOS SECTION -->
-<section class="bg-black-rb-100 p-10 md:px-20">
+<section class="bg-primary-red p-10 md:px-20">
   <h3 class="text-secn-white text-3xl text-center font-semibold mb-16">Beneficios</h3>
   <div class="grid grid-cols-2 md:grid-cols-4 gap-4 ">
 
     <div class="flex flex-col  items-center">
-      <div class="h-28 w-28 md:h-32 md:w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500 rounded-[100%] mb-3 flex justify-center items-center">
-        <img src="/src/img/icons/Icon=Escudo2.svg" alt="icono beneficios" class="w-12">
+      <div class="h-28 w-28 md:h-32 md:w-32 bg-secn-white hover:bg-secn-white-200 ease-in-out duration-500 rounded-[100%] mb-3 flex justify-center items-center">
+        <img src="/src/img/icons/red/Icon=Good, Color=Red.svg" alt="icono beneficios" class="w-12">
       </div>
       <p class="text-secn-white text-center">Detección<br>Temprana</p>
     </div>
 
     <div class="flex flex-col items-center">
-      <div class="h-28 w-28 md:h-32 md:w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
-        <img src="/src/img/icons/Icon=Salud.svg" alt="icono beneficios" class="w-12">
+      <div class="h-28 w-28 md:h-32 md:w-32 bg-secn-white hover:bg-secn-white-200 ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
+        <img src="/src/img/icons/red/Icon=Casco, Color=Red.svg" alt="icono beneficios" class="w-12">
       </div>
       <p class="text-secn-white text-center">Protección<br>de la Salud</p>
     </div>
 
     <div class="flex flex-col items-center">
-      <div class="h-28 w-28 md:h-32 md:w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
-        <img src="/src/img/icons/Icon=Bosque.svg" alt="icono beneficios" class="w-12">
+      <div class="h-28 w-28 md:h-32 md:w-32 bg-secn-white hover:bg-secn-white-200 ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
+        <img src="/src/img/icons/red/Icon=Check, Color=Red.svg" alt="icono beneficios" class="w-12">
       </div>
       <p class="text-secn-white text-center">Optimización<br>de Recursos</p>
     </div>
 
     <div class="flex flex-col items-center">
-      <div class="h-28 w-28 md:h-32 md:w-32 bg-black-rb-200 hover:bg-[#698894] ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
-        <img src="/src/img/icons/Icon=Personas.svg" alt="icono beneficios" class="w-12">
+      <div class="h-28 w-28 md:h-32 md:w-32 bg-secn-white hover:bg-secn-white-200 ease-in-out duration-500  rounded-[100%] mb-3 flex justify-center items-center">
+        <img src="/src/img/icons/red/Icon=Incremento, Color=Red.svg" alt="icono beneficios" class="w-12">
       </div>
       <p class="text-secn-white text-center">Responsabilidad<br>social</p>
     </div>
@@ -384,7 +572,7 @@
 
 <!-- SERVICIOS GENERALES -->
    <section class="w-full py-20 px-10 md:px-20 bg-secn-white-200">
-    <h2 class="mb-12 text-3xl font-semibold text-black-rb-100 text-center">Medio Ambiente </h2>
+    <h2 class="mb-12 text-3xl font-semibold text-primary-red text-center">Medio Ambiente </h2>
   
   <div class="grid gap-4 lg:grid-cols-4 sr-home-services">
   
@@ -437,7 +625,7 @@
     </a>
   </div>
   
-  <h2 class="mb-12 text-3xl font-semibold text-black-rb-100 text-center mt-20">Seguridad Indrustrial</h2>
+  <h2 class="mb-12 text-3xl font-semibold text-primary-red text-center m-20">Seguridad Indrustrial</h2>
   
   <div class="grid gap-4 lg:grid-cols-4 sr-home-services">
   
@@ -521,6 +709,6 @@
     </footer>
        
     <script type="module" src="/main.js"></script>
-    
+    <script type="module" src="../../js/hidden-icon-seguridad.js"></script>
 </body>
 </html>

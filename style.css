@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    color: #2E434D;
+}
+
 .modal-box{
     max-width: 60%;
     padding: 2rem;
@@ -16,3 +20,35 @@
 .aspect-square {
     aspect-ratio: 1 / 1;
   }
+  
+  .btt-line{
+    border: 2px solid #d04e54;
+    color: #d04e54;
+    padding: .5rem 2rem;
+    border-radius: 3px;
+    transition: all ease-in-out .3s;
+  }
+  
+  .btt-line:hover{
+    background-color: #d04e54;
+    color: #f6f6f6;
+    transform: scale(1.05);
+
+  }
+
+  /* carrousel animation */
+  
+  .slide-carrousel{
+    white-space: nowrap;
+    animation: 10s slide infinite linear;
+  }
+
+  @keyframes slide{
+    from{
+        transform: translateX(0);
+    } to{
+        transform: translateX(-100%);
+    }
+  }
+
+ 

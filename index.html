@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
+    <link rel="stylesheet" href="/style.css">
     <title>Raul Brusa & Asociados</title>
   </head>
   
   <body class="font-poppins">
+    
 <!-- NAV BAR -->
-    <header class="z-20 sticky top-0">
+
+    <header class="z-20 sticky top-0 shadow-md">
       <div class="navbar bg-secn-white">
         <div class="navbar-start dropdown-hover">
           <div class="dropdown">
@@ -44,7 +47,7 @@
                 <details>
                   <summary>Seguridad Industrial</summary>
                   <ul class="p-2">
-                    <li><a>Gestión de Seguridad y Salud Ocupacional</a></li>
+                    <li><a href="/src/pages/seguridad/gestionSeguridadySalud.html">Gestión de Seguridad y Salud Ocupacional</a></li>
                     <hr>
                     <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
                     <hr>
@@ -97,7 +100,7 @@
               <details>
                 <summary>Seguridad Industrial</summary>
                 <ul class="p-2">
-                  <li><a>Gestión de Seguridad y Salud Ocupacional</a></li>
+                  <li><a href="/src/pages/seguridad/gestionSeguridadySalud.html">Gestión de Seguridad y Salud Ocupacional</a></li>
                   <hr>
                   <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
                   <hr>
@@ -122,7 +125,7 @@
       </div>
     </header>
 
-  <!-- HERO SECTION -->
+<!-- HERO SECTION -->
 
     <div class="hero min-h-screen" style="background-image: url(https://vertexeng.com/app/uploads/2021/11/10644.00.MX-Entrenamientos-de-Seguridad-e-Higiene-Industrial--e1637769248680.jpg);">
 
@@ -139,49 +142,69 @@
           </div>
         </div>
 
-    </div>
-    
-    
-<!-- sobre nosotros     -->
-<section id="contadorNums">
-  <div class="grid md:grid-cols-2 px-10 py-20 md:p-20 gap-12 items-center text-black-rb-100">
+    </div> 
 
-    <div>
-      <img class="w-full h-96 object-cover rounded sr-home-about-img" src="https://blog.centrodeelearning.com/wp-content/uploads/2021/06/leaders-of-manufacturing-production-plant-VZ5KZR5.png" alt="">
+
+    <div class="flex flex-col lg:flex-row  bg-primary-red px-10 md:px-20 h-32">
+
+      <div class="flex justify-center items-center gap-4 text-center mb-11 lg:mb-0 lg:text-left">  
+         <img src="/src/img/icons/Rectangle 331.svg" alt="" class="w-16 hidden lg:block">
+         <h4 class="text-xl font-medium text-white">Mas de 20 clientes confian en nosotros</h4> 
+     </div>
+
+     <div class="justify-around w-full carousel">
+      <div class=" flex gap-10 ">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      <img src="/public/logos/fav_icon.svg" alt="" class="w-11 sm:w-14 lg:w-16">
+      </div>
     </div>
+
+    </div>
+    
+<!-- SOBRE NOSOTROS     -->
+
+<section >
+  <div class="grid md:grid-cols-2 pl-10 py-20 md:pl-20 gap-12 items-center text-black-rb-100">
+
+    
     <div class="sr-home-about">
-      <h2 class="font-medium text-3xl mb-4">¿Quienes Somos?</h2>
+      <p class="text-md">Sobre nosotros</p>
+      <h2 class="text-5xl mb-4 font-light">Trabaja de la <br><span class="text-primary-red font-bold">Mano de Expertos</span></h2>
+
       <p>Somos una Empresa que brindar el mejor servicio de Asesoría, Prevención de Riesgos, Ingeniería y Capacitación en Seguridad Industrial y Protección Civil en el país; apoyándonos de nuestros Asesores profesionales, altamente capacitados y comprometidos con su comunidad y su empresa. Generando confianza entre nuestros clientes y el promulgando el bienestar para nuestra sociedad.</p>
+
+      <p class="font-semibold mt-10 text-xl border-l-[2rem] pl-2 border-primary-red">Expertos en Soluciones</p>
+      <p class="font-semibold mt-4 text-xl border-l-[2rem] pl-2 border-primary-red">Comprometidos con la Excelencia</p>
+      <p class="font-semibold mt-4 text-xl border-l-[2rem] pl-2 border-primary-red">Prácticas Sostenibles y Sustentables</p>
+      <a href="/src/pages/aboutus.html"><button class="mt-10 btt-line">Sobre Nosotros</button></a>
     </div>
-  </div>
-
-  <div>
-    <div class="grid sm:grid-cols-3 gap-10 sm:gap-6 px-10 md:px-20 sm:h-32 text-black-rb-200">
-
-      <div class="card rounded place-items-center justify-center border-b-8 border-primary-red">
-        <p class="font-semibold text-3xl inline-block m-0">+<span class="num" data-val="30">0</span></p>
-        <p class="font-light">Años de experiencia</p>
-      </div>
-      <div class="card rounded place-items-center justify-center border-b-8 border-primary-red">
-        <p class="font-semibold text-3xl">+<span class="num" data-val="5">0</span></p>
-        <p class="font-light">Provincias disponible</p>
-      </div>
-      <div class="card rounded place-items-center justify-center border-b-8 border-primary-red">
-        <p class="font-semibold text-3xl"><span class="num" data-val="95">0</span>%</p>
-        <p class="font-light">Satisfaccion</p>
-      </div>
+    <div>
+      <img class="w-full object-cover rounded sr-home-about-img" src="/src/img/rb-hero-about.webp" alt="">
     </div>
   </div>
 </section>
 
-<div class="bg-primary-red mt-10 p-10 text-secn-white text-center text-2xl font-medium">
-  <p>Nuestros Servicios</p>
+<div>
+<img src="/src/img/rbhero_1.webp" alt="img seguridad indsutrial" class="w-full">
 </div>
 
-<!-- Services card -->
+<!-- CARDS SERVICIOS -->
 
-<section class="w-full py-20 px-10 md:px-20 bg-secn-white-200">
-  <h2 class="mb-12 text-3xl font-semibold border-l-8 border-primary text-black-rb-100 inline-block pl-3">Medio <br> Ambiente </h2>
+<section class="w-full py-20 px-10 md:px-20 bg-black-rb-000">
+  <p class="text-white text-center">servicios</p>
+  <h2 class="mb-12 text-5xl text-center font-semibold text-white pl-3">Medio Ambiente </h2>
 
 <div class="grid gap-4 lg:grid-cols-4 sr-home-services">
 
@@ -233,8 +256,11 @@
     </div>
   </a>
 </div>
+</section>
 
-<h2 class="mb-12 mt-14 text-3xl font-semibold border-l-8 border-primary text-black-rb-100 inline-block pl-3">Seguridad <br> industrial</h2>
+<section class="w-full py-20 px-10 md:px-20 bg-secn-white">
+  <p class="text-center">servicios</p>
+<h2 class="mb-12 text-5xl text-center font-semibold text-primary-red pl-3">Seguridad Industrial</h2>
 
 <div class="grid gap-4 lg:grid-cols-4 sr-home-services">
 
@@ -286,10 +312,108 @@
     </div>
   </a>
 </div>
+</section>
 
-    </section>
+<!-- presupuesto y foto -->
+<section>
+  <div class="h-32 bg-secn-white-200 flex  justify-between items-center px-10 md:px-20">
+    <div class="w-[50%]">
+      <h3 class="font-semibold text-xl">¡Hacemos tu presupuesto a medida! </h3>
+      <p class="font-light">Adaptamos cada detalle a tus necesidades y capacidades, asegurando la solución perfecta para ti. 
+        Confía en nosotros para un servicio personalizado y eficiente.</p>
+    </div>
+    <a href="/src/pages/contacto.html"><button class="btn btn-primary text-white px-5 text-nowrap">Solicitar presupuesto</button></a>
+  </div>
+  <div class="h-80 overflow-hidden">
+    <img src="/src/img/rb-hero-home2.webp" alt="imagen ingeniero trabajando" class="w-full h-full object-cover object-center">
+  </div>  
+</section>
+
+<aside class="bg-black-rb-000  text-white px-10 md:px-20 py-20" id="contadorNums">
+  
+  <div class="grid grid-cols-2 items-center justify-items-center mb-14">
+
+    <div>
+      <img src="src/img/argentina-mapa.svg" alt="mapa argentina">
+    </div>
+  
+  
+    <div>
+      <h3 class="text-3xl uppercase mb-7 inline-block">¿Por qué Somos <br><span class="font-bold text-5xl">los Mejores?</span></h3>
+   
+      <div class="flex items-center mb-8">
+        <i class='bx bxs-spa text-black-rb-100 text-6xl pr-5'></i>
+        <div class="flex flex-col">
+          <p class="font-semibold text-xl">Experiencia y Profesionalismo</p>
+          <p class="text-sm">Contamos con un equipo de expertos con amplia experiencia en el sector, garantizando soluciones de alta calidad y profesionalismo en cada proyecto.</p>
+        </div>
+      </div>
+  
+      <div class="flex items-center mb-8">
+        <i class='bx bxs-spa text-black-rb-100 text-6xl pr-5'></i>
+        <div class="flex flex-col">
+          <p class="font-semibold text-xl">Experiencia y Profesionalismo</p>
+          <p class="text-sm">Contamos con un equipo de expertos con amplia experiencia en el sector, garantizando soluciones de alta calidad y profesionalismo en cada proyecto.</p>
+        </div>
+      </div>
+  
+      <div class="flex items-center mb-8">
+        <i class='bx bxs-spa text-black-rb-100 text-6xl pr-5'></i>
+        <div class="flex flex-col">
+          <p class="font-semibold text-xl">Experiencia y Profesionalismo</p>
+          <p class="text-sm">Contamos con un equipo de expertos con amplia experiencia en el sector, garantizando soluciones de alta calidad y profesionalismo en cada proyecto.</p>
+        </div>
+      </div>
+  
+      <div class="flex items-center">
+        <i class='bx bxs-spa text-black-rb-100 text-6xl pr-5'></i>
+        <div class="flex flex-col text-xl">
+          <p class="font-semibold">Experiencia y Profesionalismo</p>
+          <p class="text-sm">Contamos con un equipo de expertos con amplia experiencia en el sector, garantizando soluciones de alta calidad y profesionalismo en cada proyecto.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <div>
+    <div class="grid sm:grid-cols-3 gap-10 sm:gap-6 px-10 md:px-20 sm:h-32 text-white">
+
+      <div class="card rounded place-items-center justify-center border-b-8 border-black-rb-100">
+        <p class="font-semibold text-4xl inline-block m-0">+<span class="num" data-val="30">0</span></p>
+        <p class="font-light">Años de experiencia</p>
+      </div>
+      <div class="card rounded place-items-center justify-center border-b-8 border-black-rb-100">
+        <p class="font-semibold text-4xl">+<span class="num" data-val="5">0</span></p>
+        <p class="font-light">Provincias disponible</p>
+      </div>
+      <div class="card rounded place-items-center justify-center border-b-8 border-black-rb-100">
+        <p class="font-semibold text-4xl"><span class="num" data-val="95">0</span>%</p>
+        <p class="font-light">Satisfaccion</p>
+      </div>
+    </div>
+  </div>
+</aside>
+
+<div class="flex justify-between items-center px-10 md:px-20 py-10">
+  <div>
+    <p class="text-2xl mb-5"><span class="text-primary-red font-bold text-4xl">Contáctanos</span><br>para más información </p>
+    <p class="font-light text-sm w-[70%] mb-5">Nuestro equipo está listo para ofrecerle la mejor atención, responder a sus preguntas y desarrollar estrategias adaptadas a sus necesidades específicas</p>
+    <a href="/src/pages/contacto.html"><button class="btn btn-primary text-white px-5 text-nowrap">Contáctanos</button></a>
+  </div>
+  <img src="src/img/rb-hand-contact.webp" alt="">
+</div>
 
 
+
+
+
+
+
+    <!-- //usar este ID en la section que engloba este codigo id="contadorNums" -->
+    
+
+<!-- FOOTER -->
     <footer class="footer p-10 bg-black-rb-100 text-secn-white">
       <aside>
         <img src="/public/logos/logo-1-white.svg" alt="">

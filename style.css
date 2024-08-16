@@ -6,6 +6,7 @@
 
 body{
     color: #2E434D;
+    overflow-x: hidden;
 }
 
 .modal-box{

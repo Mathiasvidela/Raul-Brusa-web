@@ -49,7 +49,7 @@
                   <ul class="p-2">
                     <li><a href="/src/pages/seguridad/gestionSeguridadySalud.html">Gestión de Seguridad y Salud Ocupacional</a></li>
                     <hr>
-                    <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
+                    <li><a href="/src/pages/seguridad/informesSeguridadSalud.html">Informes de Seguridad y Salud Ocupacional</a></li>
                     <hr>
                     <li><a>Monitoreo Laborales</a></li>
                     <hr>
@@ -102,9 +102,9 @@
                 <ul class="p-2">
                   <li><a href="/src/pages/seguridad/gestionSeguridadySalud.html">Gestión de Seguridad y Salud Ocupacional</a></li>
                   <hr>
-                  <li><a>Informes de Seguridad y Salud Ocupacional</a></li>
+                  <li><a href="/src/pages/seguridad/informesSeguridadSalud.html">Informes de Seguridad y Salud Ocupacional</a></li>
                   <hr>
-                  <li><a>Monitoreo Laborales</a></li>
+                  <li><a href="/src/pages/seguridad/monitoreosLaborales.html">Monitoreo Laborales</a></li>
                   <hr>
                   <li><a>Capacitaciones Laborales y Entrenamiento de Brigadas de Emergencia</a></li>
                 </ul>
@@ -114,7 +114,7 @@
               <details>
                 <summary>Proyectos</summary>
                 <ul class="p-2">
-                  <li><a>Ambientales</a></li>
+                  <li><a href="/src/pages/proyectos/ambientales.html">Ambientales</a></li>
                   <hr>
                   <li><a>Seguridad e Higiene</a></li>
                 </ul>
@@ -127,16 +127,21 @@
 
 <!-- HERO SECTION -->
 
-    <div class="hero min-h-screen" style="background-image: url(https://vertexeng.com/app/uploads/2021/11/10644.00.MX-Entrenamientos-de-Seguridad-e-Higiene-Industrial--e1637769248680.jpg);">
+    <div class="hero bg-fixed">
 
-      <div class="hero-overlay bg-opacity-70"></div>
+      <div class="h-full">
+        <video autoplay muted loop plays-inline src="src/video/hero-mov.mp4" class="object-cover object-center h-full w-full"></video>
+      </div>
+
+      <div class="hero-overlay bg-opacity-60"></div>
+     
         <div class=" text-left text-neutral-content w-full justify-start p-10 md:p-20">
           <div class="max-w-xl">
-              <h1 class="mb-1 text-3xl md:text-5xl font-bold sr-hero text-secn-white uppercase">Comprometidos con tu seguridad y salud laboral</h1>
-              <p class="mb-6 sr-hero md:text-xl">Ofrecemos soluciones integrales para garantizar un entorno de trabajo seguro y saludable.</p>
+              <h1 class="mb-1 text-2xl md:text-4xl font-light sr-hero text-secn-white uppercase whitespace-nowrap">Comprometidos con tu<br><span class="font-bold">seguridad y salud laboral</span></h1>
+              <p class="mb-6 sr-hero font-light md:text-md">Ofrecemos soluciones integrales para garantizar un entorno de trabajo seguro y saludable.</p>
               <div class="flex gap-3 sr-button">
-                <button class="btn bg-secn-white-200">Contacto</button>
-              <a href="/src/pages/aboutus.html"><button class="btn btn-primary text-white">Sobre Nosotros</button></a>
+                <button class="btn bg-secn-white-200 hover:-translate-y-1">Contacto</button>
+              <a href="/src/pages/aboutus.html"><button class="btn btn-primary text-white px-10 hover:-translate-y-1">Sobre Nosotros</button></a>
               </div>
               
           </div>
@@ -196,12 +201,10 @@
   </div>
 </section>
 
-<div>
-<img src="/src/img/rbhero_1.webp" alt="img seguridad indsutrial" class="w-full">
-</div>
+<div class="bg-fixed h-80 bg-cover bg-center" style="background-image: url(/src/img/rbhero_1.webp);"></div>
 
 <!-- CARDS SERVICIOS -->
-
+<main>
 <section class="w-full py-20 px-10 md:px-20 bg-black-rb-000">
   <p class="text-white text-center">servicios</p>
   <h2 class="mb-12 text-5xl text-center font-semibold text-white pl-3">Medio Ambiente </h2>
@@ -313,36 +316,73 @@
   </a>
 </div>
 </section>
+</main>
 
 <!-- presupuesto y foto -->
 <section>
-  <div class="h-32 bg-secn-white-200 flex  justify-between items-center px-10 md:px-20">
-    <div class="w-[50%]">
+  <div class=" bg-secn-white-200 grid md:grid-cols-2 justify-items-center gap-5 md:justify-items-end px-10 md:px-20 py-9">
+    <div class=" text-center md:text-left">
       <h3 class="font-semibold text-xl">¡Hacemos tu presupuesto a medida! </h3>
       <p class="font-light">Adaptamos cada detalle a tus necesidades y capacidades, asegurando la solución perfecta para ti. 
         Confía en nosotros para un servicio personalizado y eficiente.</p>
     </div>
-    <a href="/src/pages/contacto.html"><button class="btn btn-primary text-white px-5 text-nowrap">Solicitar presupuesto</button></a>
+    <a href="/src/pages/contacto.html"><button class="btn btn-primary text-white px-5 ">Solicitar presupuesto</button></a>
   </div>
-  <div class="h-80 overflow-hidden">
-    <img src="/src/img/rb-hero-home2.webp" alt="imagen ingeniero trabajando" class="w-full h-full object-cover object-center">
-  </div>  
+
+  <div class="bg-fixed h-96 bg-cover bg-center" style="background-image: url(/src/img/rb-hero-home2.webp);"></div> 
+  
 </section>
+
+
+<!-- Section MAPA  -->
 
 <aside class="bg-black-rb-000  text-white px-10 md:px-20 py-20" id="contadorNums">
   
-  <div class="grid grid-cols-2 items-center justify-items-center mb-14">
+  <div class="grid lg:grid-cols-2 gap-10 items-center justify-items-center mb-14">
+    <div class="block lg:hidden">
+      <h3 class="text-4xl uppercase mb-7 inline-block font-extralight text-center lg:text-left">¿Por qué Somos <br><span class="font-bold text-6xl">los Mejores?</span></h3>
+    </div>
 
-    <div>
-      <img src="src/img/argentina-mapa.svg" alt="mapa argentina">
+    <div class="relative">
+      <!-- BUENOS AIRES -->
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[12rem] right-[4.3rem] animate-ping"></div>
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[12rem] right-[4.3rem] opacity-40"></div>
+
+      <!-- CORDOBA -->
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[9.5rem] right-[8.6rem] animate-ping"></div>
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[9.5rem] right-[8.6rem] opacity-40"></div>
+
+      <!-- SANTIAGO DEL ESTERO -->
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[5.5rem] right-[8.8rem] animate-ping"></div>
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[5.5rem] right-[8.8rem] opacity-40"></div>
+
+      <!-- CHACO -->
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[5rem] right-[4.5rem] animate-ping"></div>
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[5rem] right-[4.5rem] opacity-40"></div>
+
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[5rem] right-[6rem] animate-ping"></div>
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[5rem] right-[6rem] opacity-40"></div>
+
+      <!-- FORMOSA -->
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[3.7rem] right-[3.8rem] animate-ping"></div>
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[3.7rem] right-[3.8rem] opacity-40"></div>
+
+
+      <!-- SANTA FE -->
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[6.6rem] right-[5.2rem] animate-ping"></div>
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[6.6rem] right-[5.2rem] opacity-40"></div>
+
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[10rem] right-[6.4rem] animate-ping "></div>
+      <div class="h-3 w-3 bg-black-rb-200 rounded-full absolute top-[10rem] right-[6.4rem] opacity-40"></div>
+      <img src="src/img/argentina-mapa.svg" alt="mapa argentina" class="w-60">
     </div>
   
   
-    <div>
-      <h3 class="text-3xl uppercase mb-7 inline-block">¿Por qué Somos <br><span class="font-bold text-5xl">los Mejores?</span></h3>
+    <div class="flex flex-col justify-items-center">
+      <h3 class="text-4xl uppercase mb-7 font-extralight hidden lg:block text-left">¿Por qué Somos <br><span class="font-bold text-6xl">los Mejores?</span></h3>
    
       <div class="flex items-center mb-8">
-        <i class='bx bxs-spa text-black-rb-100 text-6xl pr-5'></i>
+        <i class='bx bx-briefcase text-black-rb-200 text-6xl pr-5'></i>
         <div class="flex flex-col">
           <p class="font-semibold text-xl">Experiencia y Profesionalismo</p>
           <p class="text-sm">Contamos con un equipo de expertos con amplia experiencia en el sector, garantizando soluciones de alta calidad y profesionalismo en cada proyecto.</p>
@@ -350,26 +390,26 @@
       </div>
   
       <div class="flex items-center mb-8">
-        <i class='bx bxs-spa text-black-rb-100 text-6xl pr-5'></i>
+        <i class='bx bx-network-chart text-black-rb-200 text-6xl pr-5'></i>
         <div class="flex flex-col">
-          <p class="font-semibold text-xl">Experiencia y Profesionalismo</p>
-          <p class="text-sm">Contamos con un equipo de expertos con amplia experiencia en el sector, garantizando soluciones de alta calidad y profesionalismo en cada proyecto.</p>
+          <p class="font-semibold text-xl">Cobertura Nacional</p>
+          <p class="text-sm">Ofrecemos nuestros servicios en múltiples provincias de Argentina, garantizando calidad y compromiso en cada rincón del país.</p>
         </div>
       </div>
   
       <div class="flex items-center mb-8">
-        <i class='bx bxs-spa text-black-rb-100 text-6xl pr-5'></i>
+        <i class='bx bx-cog text-black-rb-200 text-6xl pr-5'></i>
         <div class="flex flex-col">
-          <p class="font-semibold text-xl">Experiencia y Profesionalismo</p>
-          <p class="text-sm">Contamos con un equipo de expertos con amplia experiencia en el sector, garantizando soluciones de alta calidad y profesionalismo en cada proyecto.</p>
+          <p class="font-semibold text-xl">Tecnología de Vanguardia</p>
+          <p class="text-sm">Utilizamos las últimas tecnologías y metodologías innovadoras para asegurar resultados eficientes y a la altura de los estándares más exigentes.</p>
         </div>
       </div>
   
       <div class="flex items-center">
-        <i class='bx bxs-spa text-black-rb-100 text-6xl pr-5'></i>
+        <i class='bx bx-donate-heart text-black-rb-200 text-6xl pr-5'></i>
         <div class="flex flex-col text-xl">
-          <p class="font-semibold">Experiencia y Profesionalismo</p>
-          <p class="text-sm">Contamos con un equipo de expertos con amplia experiencia en el sector, garantizando soluciones de alta calidad y profesionalismo en cada proyecto.</p>
+          <p class="font-semibold">Compromiso con la Sostenibilidad</p>
+          <p class="text-sm">Implementamos prácticas responsables y sostenibles, cuidando de tus empleados, el medio ambiente y tu satisfacción como cliente.</p>
         </div>
       </div>
     </div>
@@ -393,28 +433,26 @@
       </div>
     </div>
   </div>
+
 </aside>
 
-<div class="flex justify-between items-center px-10 md:px-20 py-10">
-  <div>
-    <p class="text-2xl mb-5"><span class="text-primary-red font-bold text-4xl">Contáctanos</span><br>para más información </p>
+<!-- contacto section -->
+
+<div class="grid md:grid-cols-2 gap-9 md:justify-between px-10 md:px-20 py-10">
+
+  <div class="flex flex-col items-center justify-center">
+    <p class="text-2xl mb-5 inline-block"><span class="text-primary-red font-bold text-4xl">Contáctanos</span><br>para más información </p>
     <p class="font-light text-sm w-[70%] mb-5">Nuestro equipo está listo para ofrecerle la mejor atención, responder a sus preguntas y desarrollar estrategias adaptadas a sus necesidades específicas</p>
     <a href="/src/pages/contacto.html"><button class="btn btn-primary text-white px-5 text-nowrap">Contáctanos</button></a>
   </div>
-  <img src="src/img/rb-hand-contact.webp" alt="">
+
+  <img src="src/img/rb-hand-contact.webp" alt="manos estrechandose">
+
 </div>
-
-
-
-
-
-
-
-    <!-- //usar este ID en la section que engloba este codigo id="contadorNums" -->
     
 
 <!-- FOOTER -->
-    <footer class="footer p-10 bg-black-rb-100 text-secn-white">
+    <footer class="footer p-10 bg-black-rb-000 text-secn-white">
       <aside>
         <img src="/public/logos/logo-1-white.svg" alt="">
         <p>Seguridad y Medio Ambiente</p>
@@ -445,5 +483,6 @@
     <script type="module" src="/src/js/scrollReveal.js"></script>
     <script src="/main.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+
   </body>
 </html>

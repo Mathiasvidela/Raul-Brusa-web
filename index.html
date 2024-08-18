@@ -2,13 +2,24 @@
 <html lang="en" data-theme="myTheme">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/logos/fav_icon.svg" />
+    <meta name="author" content="Raul Brusa">
+    <meta name="description" content="Expertos en seguridad, higiene y medio ambiente para industrias y urbanizaciones. Ofrecemos soluciones eficientes y sostenibles para un entorno protegido y normativo.">
+    <meta name="keywords" content="seguridad e higiene industrial, servicios medioambientales, gestión de riesgos y cumplimiento normativo">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/x-icon" href="/public/logos/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="telephone" content="+5493413020707"/>
+    <meta property="og:title" content="Seguridad y Medio Ambiente - Expertos en seguridad e higiene">
+    <meta property="og:description" content="Ofrecemos soluciones eficientes y sostenibles para la protección industrial y urbana.">
+    <meta property="og:url" content="https://raulbrusagroup.com">
+    <meta property="og:type" content="website">
+
+    
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
     <link rel="stylesheet" href="/style.css">
-    <title>Raul Brusa & Asociados</title>
+    <title>Raul Brusa Group</title>
   </head>
   
   <body class="font-poppins">
@@ -188,17 +199,19 @@
     
     <div class="sr-home-about">
       <p class="text-lg">Sobre nosotros</p>
-      <h2 class="text-5xl mb-4 font-light">Trabaja de la <br><span class="text-primary-red font-bold">Mano de Expertos</span></h2>
+      <h2 class="text-4xl md:text-5xl mb-4 font-light">Trabaja de la <br><span class="text-primary-red font-bold">Mano de Expertos</span></h2>
 
       <p>Somos una Empresa que brindar el mejor servicio de Asesoría, Prevención de Riesgos, Ingeniería y Capacitación en Seguridad Industrial y Protección Civil en el país; apoyándonos de nuestros Asesores profesionales, altamente capacitados y comprometidos con su comunidad y su empresa. Generando confianza entre nuestros clientes y el promulgando el bienestar para nuestra sociedad.</p>
+      <div class="text-md md:text-xl font-semibold">
+        <p class="mt-10 border-l-[2rem] pl-2 border-primary-red">Expertos en Brindar Soluciones</p>
+        <p class="mt-4 border-l-[2rem] pl-2 border-primary-red">Comprometidos con la Excelencia</p>
+        <p class="mt-4 border-l-[2rem] pl-2 border-primary-red">Prácticas Sostenibles y Sustentables</p>
+      </div>
 
-      <p class="font-semibold mt-10 text-xl border-l-[2rem] pl-2 border-primary-red">Expertos en Brindar Soluciones</p>
-      <p class="font-semibold mt-4 text-xl border-l-[2rem] pl-2 border-primary-red">Comprometidos con la Excelencia</p>
-      <p class="font-semibold mt-4 text-xl border-l-[2rem] pl-2 border-primary-red">Prácticas Sostenibles y Sustentables</p>
       <a href="/src/pages/aboutus.html"><button class="mt-10 btt-line">Sobre Nosotros</button></a>
     </div>
     <div>
-      <img class="w-full object-cover rounded sr-home-about-img" src="/src/img/rb-hero-about.webp" alt="">
+      <img class="w-full hidden md:block object-cover rounded sr-home-about-img" src="/src/img/rb-hero-about.webp" alt="Fotos personal de trabajo">
     </div>
   </div>
 </section>
@@ -454,31 +467,21 @@
     
 
 <!-- FOOTER -->
-    <footer class="footer p-10 bg-black-rb-000 text-secn-white">
-      <aside>
-        <img src="/public/logos/logo-1-white.svg" alt="">
-        <p>Seguridad y Medio Ambiente</p>
+    <footer class=" bg-black-rb-000 text-secn-white py-14 flex justify-between px-10 md:px-20">
+
+      <aside> 
+        <img src="/public/logos/logo-1-white.svg" alt="Logo Raul brusa group" class="w-56">
+        <p class="mt-1">Seguridad y Medio Ambiente</p>
+        <p class="text-xs text-black-rb-200 font-extralight mt-2">Copyright © 2024 - All right reserved</p>
       </aside> 
-      <nav>
-        <h6 class="footer-title">Services</h6> 
-        <a class="link link-hover">Branding</a>
-        <a class="link link-hover">Design</a>
-        <a class="link link-hover">Marketing</a>
-        <a class="link link-hover">Advertisement</a>
-      </nav> 
-      <nav>
-        <h6 class="footer-title">Company</h6> 
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Contact</a>
-        <a class="link link-hover">Jobs</a>
-        <a class="link link-hover">Press kit</a>
-      </nav> 
-      <nav>
-        <h6 class="footer-title">Legal</h6> 
-        <a class="link link-hover">Terms of use</a>
-        <a class="link link-hover">Privacy policy</a>
-        <a class="link link-hover">Cookie policy</a>
-      </nav>
+
+      <div class=" mt-5 text-3xl text-secn-white-200 flex gap-5">
+      <a href="#"><i class='bx bxl-instagram'></i></a>
+      <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+      <a href="#"><i class='bx bx-envelope'></i></a>
+      <a href="https://wa.me/5493413020707"><i class='bx bx-phone'></i></a>
+      </div>
+      
     </footer>
 
     <script type="module" src="/src/js/contadores.js"></script>

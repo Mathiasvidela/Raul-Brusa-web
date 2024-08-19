@@ -37,6 +37,20 @@ body{
 
   }
 
+  .inputs input:nth-of-type(-n+3){
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 3px;
+  }
+
+  .inputs textarea{
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 3px;
+  resize: vertical; /* Permite que solo se pueda redimensionar verticalmente */
+  height: 200px; /* Altura fija */
+  }
+
   /* carrousel animation */
   
   .slide-carrousel{

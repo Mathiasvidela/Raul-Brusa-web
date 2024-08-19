@@ -19,7 +19,9 @@ export default defineConfig ({
                 monitoreosSeguridad: resolve(__dirname, 'src/pages/seguridad/monitoreosLaborales.html'),
                 proyectoAmbiental: resolve(__dirname, 'src/pages/proyectos/ambientales.html'),
                 contacto: resolve(__dirname, 'src/pages/contact.html'),
-                aboutUs: resolve(__dirname, 'src/pages/aboutus.html')
+                aboutUs: resolve(__dirname, 'src/pages/aboutus.html'),
+                htaccess: resolve(__dirname, '.htaccess')
+                
             }
         }
     }

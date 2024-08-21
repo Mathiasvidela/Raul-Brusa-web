@@ -20,7 +20,7 @@ export default defineConfig ({
                 proyectoAmbiental: resolve(__dirname, 'src/pages/proyectos/ambientales.html'),
                 contacto: resolve(__dirname, 'src/pages/contact.html'),
                 aboutUs: resolve(__dirname, 'src/pages/aboutus.html'),
-                verification: resolve(__dirname, 'src/pages/google8877433c9200b030.html')
+                verification: resolve(__dirname, 'google8877433c9200b030.html')
                 
             }
         }

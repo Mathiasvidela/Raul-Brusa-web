@@ -21,7 +21,6 @@ export default defineConfig ({
                 contacto: resolve(__dirname, 'src/pages/contact.html'),
                 aboutUs: resolve(__dirname, 'src/pages/aboutus.html'),
                 verification: resolve(__dirname, 'google8877433c9200b030.html'),
-                jsAbout: resolve(__dirname, 'src/js/about.js'),
                 jsContadores: resolve(__dirname, 'src/js/contadores.js'),
                 jsHiddenIcons: resolve(__dirname, 'src/js/hidden-icon-seguridad.js'),
                 jsScrollReveal: resolve(__dirname, 'src/js/scrollReveal.js')

@@ -18,6 +18,7 @@ export default defineConfig ({
                 informeSeguridad: resolve(__dirname, 'src/pages/seguridad/informesSeguridadSalud.html'),
                 monitoreosSeguridad: resolve(__dirname, 'src/pages/seguridad/monitoreosLaborales.html'),
                 proyectoAmbiental: resolve(__dirname, 'src/pages/proyectos/ambientales.html'),
+                proyectoSeguridad: resolve(__dirname, 'src/pages/proyectos/seguridad.html'),
                 contacto: resolve(__dirname, 'src/pages/contact.html'),
                 aboutUs: resolve(__dirname, 'src/pages/aboutus.html'),
                 verification: resolve(__dirname, 'google8877433c9200b030.html'),

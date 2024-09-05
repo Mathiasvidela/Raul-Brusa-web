@@ -14,6 +14,7 @@ export default defineConfig ({
                 informesAmbientales: resolve(__dirname, 'src/pages/medioambiente/informesAmbientales.html'),
                 monitoreosAmbientales: resolve(__dirname, 'src/pages/medioambiente/monitoreosAmbientales.html'),
                 capacitacionesAmbientales: resolve(__dirname, 'src/pages/medioambiente/capacitacionesAmbientales.html'),
+                capacitacionesSeguridad: resolve(__dirname, 'src/pages/seguridad/capacitacionesSeguridad.html'),
                 gestionSeguridad: resolve(__dirname, 'src/pages/seguridad/gestionSeguridadySalud.html'),
                 informeSeguridad: resolve(__dirname, 'src/pages/seguridad/informesSeguridadSalud.html'),
                 monitoreosSeguridad: resolve(__dirname, 'src/pages/seguridad/monitoreosLaborales.html'),
